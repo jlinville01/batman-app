@@ -1,6 +1,6 @@
 # Batman App
 
-The objective of this application was to create a rails application to showcase various forms of testing including Front-End web automation, Back-End API automation, Unit/Fixture tests.
+The objective of this application was to create a rails application to showcase various forms of testing including Front-End web automation, Back-End API automation and Unit/Fixture tests.
 
 # Setup
 
