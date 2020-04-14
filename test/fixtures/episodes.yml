@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number: 1
+  season: 1
+  title: "On Leather Wings"
+  synopsis: "A mysterious bat-like creature terrorizes Gotham City, causing the police force to pursue Batman. The Dark Knight must find the real perpetrator to clear his name."
+
+two:
+  number: 2
+  season: 1
+  title: "Christmas with the Joker"
+  synopsis: "After escaping Arkham Asylum on Christmas Eve, the Joker takes over Gotham's airwaves and terrorizes the city for a crime. He challenges Batman and Robin to find his hidden TV studio and free his hostages – Commissioner Gordon, Detective Bullock and Summer Gleeson – before midnight."
+
+three:
+  number: 3
+  season: 1
+  title: 	"Nothing to Fear"
+  synopsis: "Batman encounters the Scarecrow and attempts to foil his scheme to burn down Gotham University, but in the process is exposed to the Scarecrow's fear gas, and is forced to face his own guilt over the death of his parents."
+
+four:
+  number: 4
+  season: 1
+  title: "The Last Laugh"
+  synopsis: "The Joker covers Gotham City in a cloud of laughing gas and begins plundering the crazed city. But after Alfred is infected with the toxin, Batman has added incentive to stop the Joker and acquire an antidote from him before all of Gotham dies with a smile."

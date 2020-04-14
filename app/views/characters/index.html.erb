@@ -1,0 +1,26 @@
+<h1>Characters</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Alias</th>
+    <th>Real Name</th>
+    <th>Debut</th>
+    <th>Status</th>
+    <th>Bio</th>
+    <th colspan="3"></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @characters.each do |character| %>
+    <tr>
+      <td><%= character.alias %></td>
+      <td><%= character.real_name %></td>
+      <td><%= character.debut %></td>
+      <td><%= character.status %></td>
+      <td><%= character.bio %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>

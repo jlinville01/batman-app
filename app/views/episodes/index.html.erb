@@ -1,0 +1,24 @@
+<h1>Episodes</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Episode</th>
+    <th>Season</th>
+    <th>Title</th>
+    <th>Synopsis</th>
+    <th colspan="3"></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @episodes.each do |episode| %>
+    <tr>
+      <td><%= episode.number %></td>
+      <td><%= episode.season %></td>
+      <td><%= episode.title %></td>
+      <td><%= episode.synopsis %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
