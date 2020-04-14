@@ -4,7 +4,7 @@ The objective of this application was to create a rails application to showcase 
 
 # Setup
 
-1. Clone the repo.
+1. `git clone https://github.com/jlinville01/batman-app.git`
 2. `cd /batman-app`
 3. `bundle install`
 4. `rails s`
