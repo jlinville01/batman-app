@@ -1,24 +1,31 @@
-# README
+# Batman App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The objective of this application was to create a rails application to showcase various forms of testing including Front-End web automation, Back-End API automation, Unit/Fixture tests.
 
-Things you may want to cover:
+# Setup
 
-* Ruby version
+1. Clone the repo.
+2. `cd /batman-app`
+3. `bundle install`
+4. `rails s`
+5. `rake db:create`
+6. `rake db:migrate`
+7. `rake db:seed`
 
-* System dependencies
+# Run Tests
 
-* Configuration
+Front-End Automation:
 
-* Database creation
 
-* Database initialization
+Back-End (API) Automation:
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+Unit Tests:
+`rake spec OR rspec`
 
-* Deployment instructions
+Fixures:
+`rake test:models`
 
-* ...
+(run `rake db:drop db:create db:migrate db:seed` to reset database)
+
+![Alt Text](https://media.giphy.com/media/5DQdk5oZzNgGc/giphy.gif)
