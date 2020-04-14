@@ -14,7 +14,7 @@ The objective of this application was to create a rails application to showcase 
 
 # Run Tests
 
-Front-End Automation:
+Front-End (Web) Automation:
 
 
 Back-End (API) Automation:
