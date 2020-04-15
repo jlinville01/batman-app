@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   root 'pages#index'
 
+  post 'characters/find' => 'characters#find'
+
   resources :characters
   resources :episodes
   resources :movies

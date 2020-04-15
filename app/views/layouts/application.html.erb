@@ -16,6 +16,12 @@
     <%= link_to 'Movies', movies_path %>
     <%= link_to 'Actors', actors_path %>
     <%= link_to 'Create Character', new_character_path %>
+    <span style="text-align:right">
+      <%= form_tag "/characters/find" do %>
+        <%= text_field_tag :search_string %>
+        <%= submit_tag "Search for characters" %>
+      <% end %>
+    </span>
 
     <%= yield %>
   </body>

@@ -1,5 +1,9 @@
 class CharactersController < ApplicationController
 
+  def find
+    @characters = Character.where("alias = ?", params[:search_string].capitalize)
+  end
+
   # GET /characters
   def index
     @characters = Character.all
