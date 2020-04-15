@@ -245,8 +245,43 @@ Episode.create!([{
   title: "I Am the Night",
   synopsis: "On the anniversary of the death of Bruce's parents, Batman accompanies Leslie Thompkins to Crime Alley to place roses on the spot where they were gunned down. Meanwhile, Commissioner Gordon is on stakeout to arrest Jimmy \"The Jazzman\" Peake during a drug smuggling ring. Batman had promised to be there, but arrives late to find a gun battle going on. He helps defeat the gangsters and arrest the Jazzman, but at a high cost—Gordon is severely wounded. The incident traumatizes Batman and he contemplates giving up his crime-fighting career, despite the Jazzman escaping prison to carry out his personal vendetta against Gordon (who had sent him to prison six years before)."
 }, {
-  number: 21,
+  number: 22,
   season: 2,
   title: "Off Balance",
   synopsis: "While following Count Vertigo's trail, Batman encounters Talia, daughter of the head of the Society of Shadows, who was sent by her father to prevent the capture of a sonic drill that the Count stole. But after his identity is accidentally revealed to Talia, Batman remains off-balance as to where her true loyalties lie."
+}, {
+  number: 23,
+  season: 2,
+  title: "The Man Who Killed Batman",
+  synopsis: "When small-time gang member Sidney \"The Squid\" Debris (played by Matt Frewer) seemingly kills Batman by accident, he gets involved with gangs all over Gotham, as well as the Joker and Rupert Thorne, none of whom believe his story that everything that is happening is by preposterous happenstance."
+}, {
+  number: 24,
+  season: 2,
+  title: "Mudslide",
+  synopsis: "Clayface is falling apart, literally. His clay-like body is disintegrating. Fortunately, a scientist he knew from his movie star days is working on a remedy. However, Hagen is forced to steal money to pay for the expensive components of the remedy. That is, until one of his targets is Wayne Biomedical Labs..."
+}, {
+  number: 25,
+  season: 2,
+  title: "Paging the Crime Doctor",
+  synopsis: "Dr. Matthew Thorne (played by Joseph Campanella), losing his medical license and forced into becoming the crime doctor by his older brother, crime boss Rupert Thorne, must perform delicate surgery on Rupert. He can't do it alone, and kidnaps Dr. Leslie Thompkins to assist. Batman discovers Leslie's disappearance, and rushes to track her down – and has an additional interest in Matthew, because he was a medical school classmate of Bruce Wayne's father Thomas."
+}, {
+  number: 26,
+  season: 2,
+  title: "Zatanna",
+  synopsis: "When the glamorous magician Zatanna is framed for a robbery during her act, Batman swings to her defense. Zatanna is grateful, though a little puzzled, by the Dark Knight's commitment to prove her innocence, but the two heroes unite and use the skills her father, Zatara, taught them to expose and combat the culprit: an evil illusionist named Montague Kane."
+}, {
+  number: 27,
+  season: 2,
+  title: "The Mechanic",
+  synopsis: "Thanks to a freak accident during a high-speed chase, the Batmobile is virtually demolished. After Batman takes the car to his personal mechanic, Earl Cooper, the Penguin makes his move and tampers with the Batmobile, putting it under his control."
+}, {
+  number: 28,
+  season: 2,
+  title: "Harley and Ivy",
+  synopsis: "When the Joker fires Harley for her incompetent, she tries going on a crime spree of her own, joining up with Poison Ivy, and the two become Gotham's Queens of Crime, much to the Joker's fury."
+}, {
+  number: 1,
+  season: 3,
+  title: "Shadow of the Bat: Part 1",
+  synopsis: "When Commissioner Gordon is framed for taking bribes from Rupert Thorne, his daughter Barbara pleads with Batman to show up at a rally being put on in the commissioner's behalf. But when Batman disappears after finding the person behind the frame-up, Barbara takes the law into her own hands as Batgirl."
 }])
