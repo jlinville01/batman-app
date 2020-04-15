@@ -10,11 +10,12 @@
   </head>
 
   <body>
-    <%= image_tag("https://batman-on-film.com/wp-content/uploads/2018/03/batman-the-animated-series.png", size: "300x100") %>
+    <%= image_tag('https://batman-on-film.com/wp-content/uploads/2018/03/batman-the-animated-series.png', size: "300x100") %>
     <%= link_to 'Characters', characters_path %>
     <%= link_to 'Episodes', episodes_path %>
     <%= link_to 'Movies', movies_path %>
     <%= link_to 'Actors', actors_path %>
+    <%= link_to 'Create Character', new_character_path %>
 
     <%= yield %>
   </body>
