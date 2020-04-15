@@ -199,4 +199,54 @@ Episode.create!([{
   season: 2,
   title: "If You're So Smart, Why Aren't You Rich?",
   synopsis: "Edward Nygma creates the video game The Riddle of the Minotaur for the company Competitron, but is fired by his superior Daniel Mockridge, who wants the profits for himself. Nygma vows revenge, and takes up the mantle of the Riddler two years later. While Batman sympathizes with Nygma, he and Robin find themselves forced to stop him before he kills Mockridge in a life-sized version of the Minotaur maze. Despite successfully rescuing Mockridge, who complete a deal to move his company to Gotham, the incident leaves him in a permanent all-consuming fear of Nygma's return for revenge."
+}, {
+  number: 13,
+  season: 2,
+  title: "Joker's Wild",
+  synopsis: "Cameron Kaiser builds a casino hotel modeled after the Joker, called \"The Joker's Wild\". The Joker sees this on the news and, enraged, escapes from Arkham again, with one thought on his mind: destroying the casino, unaware that this is exactly what Kaiser wants him to do as part of an insurance claim."
+}, {
+  number: 14,
+  season: 2,
+  title: "Tyger Tyger",
+  synopsis: "Selina Kyle is kidnapped by the villainous genetic engineer Dr. Emile Dorian and becomes his latest experiment to provide his man-cat hybrid named Tygrus with a mate. Batman learns of this and comes to the island to rescue Selina. He is captured and forced into a deadly game of cat-and-flying mouse as Tygrus hunts Batman through the island's jungles."
+}, {
+  number: 15,
+  season: 2,
+  title: "Moon of the Wolf",
+  synopsis: "Batman investigates the appearance of a werewolf-like creature in Gotham, not realizing that the monster happens to be one of Bruce Wayne's associates — Anthony Romulus, ex-Olympic champion. Behind the scheme is twisted chemist Professor Milo."
+}, {
+  number: 16,
+  season: 2,
+  title: "Day of the Samurai",
+  synopsis: "Kyodai Ken kidnaps Kari, star pupil of Yoru Sensei, the martial arts instructor who taught both Kyodai and Bruce. The ninja's ransom for her is a scroll that teaches the location of the fabled Death Touch."
+}, {
+  number: 17,
+  season: 2,
+  title: "Terror in the Sky",
+  synopsis: "When a giant-sized bat ransacks Gotham harbor, Batman suspects that Dr. Kirk Langstrom is up to his old tricks, taking the Man-Bat formula again. Batman isn't the only one. Kirk's wife, Francine, is so distrustful of her husband that she decides to leave him. After further investigation, Batman discovers that this Man-Bat is not Kirk, but someone else, and thus he shames Francine's father into permanently destroying the formula."
+}, {
+  number: 18,
+  season: 2,
+  title: "Almost Got 'Im",
+  synopsis: "The Joker, Killer Croc, the Penguin, Two-Face, and Poison Ivy all meet at a poker table, each telling a tale of times when they almost defeated Batman. At the same time, Harley Quinn is about to kill Catwoman after she rescued Batman from the Joker's electric chair, and Batman must save her."
+}, {
+  number: 19,
+  season: 2,
+  title: "Birds of a Feather",
+  synopsis: "Veronica Vreeland is looking for a way to create a splash with her next party, and arrives at the idea of having a former criminal in attendance — especially if there is one whose manners would create a stir. The Penguin, who has recently reformed, fits the bill perfectly. In the process of convincing the Penguin to come to her party, Veronica finds she likes the corpulent little guy. For his part, the Penguin begins to fall in love with her, until he overhears that he is merely being used..."
+}, {
+  number: 20,
+  season: 2,
+  title: "What Is Reality?",
+  synopsis: "Seeking to prove once and for all that his is the superior mind, the Riddler lures Batman into a riddle-solving contest inside the virtual reality of a computer game in order to save Commissioner Gordon's life. In the course of solving the riddles and escaping the Riddler's traps, Batman learns that he is able to manipulate the virtual reality landscape much like the Riddler does."
+}, {
+  number: 21,
+  season: 2,
+  title: "I Am the Night",
+  synopsis: "On the anniversary of the death of Bruce's parents, Batman accompanies Leslie Thompkins to Crime Alley to place roses on the spot where they were gunned down. Meanwhile, Commissioner Gordon is on stakeout to arrest Jimmy \"The Jazzman\" Peake during a drug smuggling ring. Batman had promised to be there, but arrives late to find a gun battle going on. He helps defeat the gangsters and arrest the Jazzman, but at a high cost—Gordon is severely wounded. The incident traumatizes Batman and he contemplates giving up his crime-fighting career, despite the Jazzman escaping prison to carry out his personal vendetta against Gordon (who had sent him to prison six years before)."
+}, {
+  number: 21,
+  season: 2,
+  title: "Off Balance",
+  synopsis: "While following Count Vertigo's trail, Batman encounters Talia, daughter of the head of the Society of Shadows, who was sent by her father to prevent the capture of a sonic drill that the Count stole. But after his identity is accidentally revealed to Talia, Batman remains off-balance as to where her true loyalties lie."
 }])
