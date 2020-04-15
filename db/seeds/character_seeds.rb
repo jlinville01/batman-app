@@ -101,4 +101,4 @@ Character.create!([{
 	debut: "Mad as A Hatter",
 	status: "Villain",
 	bio: "A scientist who became the villain known as the Mad Hatter."
-}]) 
+}])

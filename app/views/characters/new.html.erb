@@ -1,1 +1,21 @@
 <h1>New Character</h1>
+<%= form_for(:character) do |f| %>
+  <div class="field">
+    <%= f.label :alias %><%= f.text_field :alias %><br>
+  </div>
+  <div class="field">
+    <%= f.label :real_name %><%= f.text_field :real_name %><br>
+  </div>
+  <div class="field">
+    <%= f.label :debut %><%= f.text_field :debut %><br>
+  </div>
+  <div class="field">
+    <%= f.label :status %><%= f.select :status, %w[Hero Villain] %><br>
+  </div>
+  <div class="field">
+    <%= f.label :bio %><%= f.text_area :bio, cols: "30", rows: "10" %><br>
+  </div>
+  <div class="actions">
+    <br><%= f.submit %>
+  </div>
+<% end %>
