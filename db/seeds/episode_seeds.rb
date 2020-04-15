@@ -1,4 +1,4 @@
-Episode.destroy_all()
+Episode.destroy_all
 Episode.create!([{
   number: 1,
   season: 1,
