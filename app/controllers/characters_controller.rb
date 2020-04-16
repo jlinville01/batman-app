@@ -16,11 +16,16 @@ class CharactersController < ApplicationController
 
   # GET /characters/new
   def new
+    @character = Character.new
+  end
+
+  # POST /characters
+  def create
     @character = Character.new(character_params)
 
     respond_to do |format|
       if @character.save
-        format.html { redirect_to @character, notice: 'Artist was successfully created.' }
+        format.html { redirect_to @character, notice: 'Character was successfully created.' }
         format.json { render :show, status: :created, location: @character }
       else
         format.html { render :new }
@@ -32,6 +37,6 @@ class CharactersController < ApplicationController
   private
 
   def character_params
-    params.permit(:alias, :real_name, :debut, :status, :bio)
+    params.require(:character).permit(:alias, :real_name, :debut, :status, :bio)
   end
 end

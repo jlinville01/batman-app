@@ -1,4 +1,16 @@
-<%= form_for(:character) do |f| %>
+<%= form_with(model: @character, local: true) do |f| %>
+  <% if @character.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@character.errors.count, "error") %> prohibited this character from being saved:</h2>
+
+      <ul>
+        <% @character.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
   <div class="field">
     <%= f.label :alias %><%= f.text_field :alias %><br>
   </div>

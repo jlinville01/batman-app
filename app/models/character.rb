@@ -1,5 +1,5 @@
 class Character < ApplicationRecord
-  validates :alias, presence: true, allow_blank: false
+  validates :alias, presence: true, uniqueness: true, allow_blank: false
   validates :real_name, presence: true, allow_blank: false
   validates :debut, presence: true, allow_blank: false
   validates :status, presence: true, allow_blank: false
