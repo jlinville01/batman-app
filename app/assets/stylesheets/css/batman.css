@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.header {
+    grid-area: header;
+    background-color: #B20000;
+    text-align: center;
+    font-size: 50px;
+    font-family: PlazaW01-Regular;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+/* Grid container */
+.grid-container {
+    display: grid;
+    grid-template-areas:
+            'header header header header header header'
+            'text-header text-header text-header text-header text-header text-header'
+            'pic pic pic pic pic pic'
+            'center-table center-table center-table center-table center-table center-table'
+            'footer footer footer footer footer footer';
+    grid-column-gap: 10px; /* if you want gap between the columns */
+    grid-row-gap: 16px;
+}
+
+.left,
+.middle,
+.right {
+    padding: 10px;
+}
+
+.left {
+    grid-area: left;
+}
+
+.middle {
+    grid-area: middle;
+    text-align: center;
+}
+
+.right {
+    grid-area: right;
+}
+
+.text-header {
+    grid-area: text-header;
+    text-align: center;
+}
+.center-table {
+    grid-area: center-table;
+    text-align: center;
+}
+.pic {
+    grid-area: pic;
+    text-align: center;
+}
+
+/* Links */
+a:link {
+    color: white;
+    text-decoration:none;
+    text-shadow: 2px 2px #000000;
+}
+
+a:visited {
+    color: white;
+    text-decoration:none;
+}
+
+a:hover {
+    color: black;
+    text-decoration:none;
+    text-shadow: 2px 2px #FFFFFF;
+}
+
+a:active {
+    color: white;
+    text-decoration:none;
+}
+
+/* Tables */
+table, th, td {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border: 3px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #B20000;
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Forms */
+.form-label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    grid-area: footer;
+    background-color: #B20000;
+    text-align: center;
+    color:white;
+    font-family: PlazaW01-Regular;
+    font-size: 20px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .grid-container  {
+        grid-template-areas:
+                'header header header header header header'
+                'left left left left left left'
+                'middle middle middle middle middle middle'
+                'right right right right right right'
+                'footer footer footer footer footer footer';
+    }
+}

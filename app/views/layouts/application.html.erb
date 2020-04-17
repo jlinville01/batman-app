@@ -4,25 +4,44 @@
     <title>BatmanApp</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <meta name="Batman App" content="">
+    <meta name="Justin Linville" content="">
+
+    <link href="css/batman.css" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/da705311fac0a226b798b256cf704209?family=PlazaW01-Regular" rel="stylesheet" type="text/css"/>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= image_tag('https://batman-on-film.com/wp-content/uploads/2018/03/batman-the-animated-series.png', size: "300x100") %>
-    <%= link_to 'Characters', characters_path %>
-    <%= link_to 'Episodes', episodes_path %>
-    <%= link_to 'Movies', movies_path %>
-    <%= link_to 'Actors', actors_path %>
-    <%= link_to 'Create Character', new_character_path %>
-    <span style="text-align:right">
-      <%= form_tag "/characters/find" do %>
-        <%= text_field_tag :search_string %>
-        <%= submit_tag "Search for characters" %>
-      <% end %>
-    </span>
+    <div class="grid-container">
+      <div class="header">
+        <ul class="nav">
+          <li style="padding-right: 50px;"><%= link_to image_tag('https://batman-on-film.com/wp-content/uploads/2018/03/batman-the-animated-series.png', size: "300x100"), root_path %></li>
+          <li><%= link_to 'Characters', characters_path %></li>
+          <li>-</li>
+          <li><%= link_to 'Episodes', episodes_path %></li>
+          <li>-</li>
+          <li><%= link_to 'Movies', movies_path %></li>
+          <li>-</li>
+          <li><%= link_to 'Actors', actors_path %></li>
+          <li>-</li>
+          <li><%= link_to 'Create Character', new_character_path %></li>
+          <li style="padding-left: 50px;">
+            <%= form_tag "/characters/find" do %>
+              <%= text_field_tag :search_string %>
+              <%= submit_tag "Search for characters" %>
+            <% end %>
+          </li>
+        </ul>
+      </div>
 
-    <%= yield %>
+      <%= yield %>
+
+      <div class="footer">
+        <p>© 2020 Justin Linville</p>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,8 +1,8 @@
-<h1>Characters</h1>
+<h1 class="text-header">CHARACTERS</h1>
 
-<th><%= image_tag("https://images.justwatch.com/backdrop/13952236/s1440/batman-the-animated-series", size: "900x500") %></th>
+<div class="pic"><%= image_tag("https://images.justwatch.com/backdrop/13952236/s1440/batman-the-animated-series", size: "900x500") %></div>
 
-<table>
+<table class="center-table">
   <thead>
   <tr>
     <th>Alias</th>
@@ -10,7 +10,6 @@
     <th>Debut</th>
     <th>Status</th>
     <th>Bio</th>
-    <th colspan="3"></th>
   </tr>
   </thead>
 
@@ -26,5 +25,3 @@
   <% end %>
   </tbody>
 </table>
-
-<br><br><%= link_to 'Home Page', root_path %>
