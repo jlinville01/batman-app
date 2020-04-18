@@ -9,6 +9,7 @@ Front-End
 - css: create character
 - add episode images (need to add to schema)
 - add character images (need to add to schema)
+
 Back-End
 - web automation
 - unit tests
