@@ -5,11 +5,11 @@ The objective of this application was to create a rails application to showcase 
 ## TO-DO:
 
 Front-End
-- add IDs
-- improve css: create character
+- web automation
+-- add IDs
+-- improve css: create character
 
 Back-End
-- web automation
 - unit tests
 - database cleaner for api tests
 
