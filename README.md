@@ -6,11 +6,10 @@ The objective of this application was to create a rails application to showcase 
 
 Front-End
 - web automation
--- add IDs
--- improve css: create character
+  - add IDs
+  - improve css: create character
 
 Back-End
-- unit tests
 - database cleaner for api tests
 
 # Setup
