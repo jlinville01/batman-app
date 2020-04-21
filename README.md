@@ -7,7 +7,8 @@ The objective of this application was to create a rails application to showcase 
 Front-End
 - web automation
   - add IDs
-  - improve css: create character
+  - add scenarios
+- mprove css: create character
 
 Back-End
 - database cleaner for api tests
