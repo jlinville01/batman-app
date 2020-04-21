@@ -5,6 +5,7 @@
 <table class="center-table">
   <thead>
   <tr>
+    <th>Poster</th>
     <th>Title</th>
     <th>Release Date</th>
     <th>Synopsis</th>
@@ -15,6 +16,7 @@
   <tbody>
   <% @movies.each do |movie| %>
     <tr>
+      <td><%= image_tag(movie.poster, size: "150x200") %></td>
       <td><%= movie.title %></td>
       <td><%= movie.release_date %></td>
       <td><%= movie.synopsis %></td>

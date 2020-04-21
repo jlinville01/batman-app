@@ -5,6 +5,7 @@
 <table class="center-table">
   <thead>
   <tr>
+    <th>Avatar</th>
     <th>Alias</th>
     <th>Real Name</th>
     <th>Debut</th>
@@ -16,6 +17,7 @@
   <tbody>
   <% @characters.each do |character| %>
     <tr>
+      <td><%= image_tag(character.avatar, size: "200x125") %></td>
       <td><%= character.alias %></td>
       <td><%= character.real_name %></td>
       <td><%= character.debut %></td>
