@@ -1,13 +1,19 @@
-<h1>CHARACTERS</h1>
+<h1 class="text-header">CHARACTERS</h1>
 
-<table>
-  <% if @characters.empty? %>
+<% if @characters.empty? %>
+  <table class="center-table">
     <thead>
       <tr>
         <td>Character not found</td>
       </tr>
     </thead>
-  <% else %>
+  </table>
+<% else %>
+  <% @characters.each do |character| %>
+    <div class="pic"><%= image_tag(character.avatar, size: "900x500") %></div>
+  <% end %>
+
+  <table class="center-table">
     <thead>
       <tr>
         <th>Alias</th>
@@ -30,5 +36,5 @@
         </tr>
       <% end %>
     </tbody>
-  <% end %>
-</table>
+  </table>
+<% end %>
