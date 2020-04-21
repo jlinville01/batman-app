@@ -8,7 +8,7 @@ Front-End
 - web automation
   - add IDs
   - add scenarios
-- mprove css: create character
+- improve css: create character
 
 Back-End
 - database cleaner for api tests
