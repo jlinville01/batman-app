@@ -11,6 +11,7 @@ Front-End
 Back-End
 - web automation
 - unit tests
+- database cleaner for api tests
 
 # Setup
 
