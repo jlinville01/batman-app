@@ -31,10 +31,10 @@ Front-End (Web) Automation:
 Back-End (API) Automation:
 `cucumber -p localhost -t @api`
 
-Unit Tests:
+Controller Unit Tests:
 `rake spec OR rspec`
 
-Fixures:
+Model Unit Tests:
 `rake test:models`
 
 (run `rake db:drop db:create db:migrate db:seed` to reset database)
