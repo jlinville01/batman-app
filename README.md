@@ -6,9 +6,7 @@ The objective of this application was to create a rails application to showcase 
 
 Front-End
 - add IDs
-- css: create character
-- add episode images (need to add to schema)
-- add character images (need to add to schema)
+- improve css: create character
 
 Back-End
 - web automation
