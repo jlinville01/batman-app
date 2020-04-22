@@ -12,21 +12,26 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :alias, class: "form-label" %><%= f.text_field :alias, size:"25" %><br>
+    <div><%= f.label :alias, class: "form-label" %></div>
+    <div><%= f.text_field :alias, size:"50" %></div><br>
   </div>
   <div class="field">
-    <%= f.label :real_name, class: "form-label" %><%= f.text_field :real_name, size:"25" %><br>
+    <div><%= f.label :real_name, class: "form-label" %></div>
+    <div><%= f.text_field :real_name, size:"50" %></div><br>
   </div>
   <div class="field">
-    <%= f.label :debut, class: "form-label" %><%= f.text_field :debut, size:"25" %><br>
+    <div><%= f.label :debut, class: "form-label" %></div>
+    <div><%= f.text_field :debut, size:"50" %></div><br>
   </div>
   <div class="field">
-    <%= f.label :status, class: "form-label" %><%= f.select :status, %w[Hero Villain] %><br>
+    <div><%= f.label :status, class: "form-label" %></div>
+    <div><%= f.select :status, %w[Hero Villain] %></div><br>
   </div>
   <div class="field">
-    <%= f.label :bio, class: "form-label" %><%= f.text_area :bio, cols: "25", rows: "10" %><br>
+    <div><%= f.label :bio, class: "form-label" %></div>
+    <div><%= f.text_area :bio, cols: "50", rows: "5" %></div><br>
   </div>
   <div class="actions">
-    <br><%= f.submit %>
+    <div><%= f.submit %></div>
   </div>
 <% end %>

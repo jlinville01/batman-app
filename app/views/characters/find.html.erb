@@ -1,7 +1,7 @@
 <h1 class="text-header">CHARACTERS</h1>
 
 <% if @characters.empty? %>
-  <table class="center-table">
+  <table class="content-table">
     <thead>
       <tr>
         <td>Character not found</td>
@@ -13,7 +13,7 @@
     <div class="pic"><%= image_tag(character.avatar, size: "900x500") %></div>
   <% end %>
 
-  <table class="center-table">
+  <table class="content-table">
     <thead>
       <tr>
         <th>Alias</th>
