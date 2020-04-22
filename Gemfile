@@ -41,6 +41,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'cucumber', '3.1.2'
   gem 'rails-controller-testing', '~> 1.0'
+  gem 'require_all'
   gem 'rest-client', '~> 2.0', '>= 2.0.2'
   gem 'rspec-expectations', '~> 3.8.0'
   gem 'rspec-rails'

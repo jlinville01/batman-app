@@ -18,20 +18,20 @@
     <div class="grid-container">
       <div class="header">
         <ul class="nav">
-          <li style="padding-right: 50px;"><%= link_to image_tag('https://batman-on-film.com/wp-content/uploads/2018/03/batman-the-animated-series.png', size: "300x100"), root_path %></li>
+          <li style="padding-right: 50px;"><%= link_to image_tag('https://batman-on-film.com/wp-content/uploads/2018/03/batman-the-animated-series.png', size: "300x100", id: 'batman_logo'), root_path %></li>
           <li><%= link_to 'Characters', characters_path, id: 'characters_link' %></li>
           <li>-</li>
           <li><%= link_to 'Episodes', episodes_path, id: 'episodes_link' %></li>
           <li>-</li>
-          <li><%= link_to 'Movies', movies_path %></li>
+          <li><%= link_to 'Movies', movies_path, id: 'movies_link' %></li>
           <li>-</li>
-          <li><%= link_to 'Actors', actors_path %></li>
+          <li><%= link_to 'Actors', actors_path, id: 'actors_link' %></li>
           <li>-</li>
-          <li><%= link_to 'Create Character', new_character_path %></li>
+          <li><%= link_to 'Create Character', new_character_path, id: 'create_character_link' %></li>
           <li style="padding-left: 50px;">
             <%= form_tag "/characters/find" do %>
               <%= text_field_tag :search_string %>
-              <%= submit_tag "Search for characters" %>
+              <%= submit_tag "Search for characters", id: 'search_button' %>
             <% end %>
           </li>
         </ul>
