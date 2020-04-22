@@ -32,25 +32,6 @@ body {
     grid-row-gap: 16px;
 }
 
-/*.left,*/
-/*.middle,*/
-/*.right {*/
-/*    padding: 10px;*/
-/*}*/
-
-/*.left {*/
-/*    grid-area: left;*/
-/*}*/
-
-/*.middle {*/
-/*    grid-area: middle;*/
-/*    text-align: center;*/
-/*}*/
-
-/*.right {*/
-/*    grid-area: right;*/
-/*}*/
-
 .text-header {
     grid-area: text-header;
     text-align: center;
@@ -103,6 +84,7 @@ table, th, td {
 
 table {
     border-collapse: collapse;
+    margin: 0px 150px
 }
 
 th {
@@ -124,6 +106,7 @@ tr:hover {
     width: 25%;
     border-radius: 5px;
     padding: 20px;
+    margin: auto
 }
 
 .form-label {
@@ -139,15 +122,3 @@ tr:hover {
     font-family: PlazaW01-Regular;
     font-size: 20px;
 }
-
-/*!* Responsive layout - makes the three columns stack on top of each other instead of next to each other *!*/
-/*@media (max-width: 600px) {*/
-/*    .grid-container  {*/
-/*        grid-template-areas:*/
-/*                'header header header header header header'*/
-/*                'left left left left left left'*/
-/*                'middle middle middle middle middle middle'*/
-/*                'right right right right right right'*/
-/*                'footer footer footer footer footer footer';*/
-/*    }*/
-/*}*/
