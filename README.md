@@ -8,7 +8,6 @@ Front-End
 - web automation
   - add IDs
   - add scenarios
-- improve css: create character
 
 Back-End
 - database cleaner for api tests
