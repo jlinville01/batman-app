@@ -120,7 +120,6 @@ tr:hover {
 
 /* Forms */
 .form-whole {
-    grid-area: center-table;
     background-color: #f2f2f2;
     width: 25%;
     border-radius: 5px;
