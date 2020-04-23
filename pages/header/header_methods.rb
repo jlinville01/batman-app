@@ -1,5 +1,6 @@
 class Header
-  # include PageActions
+  include PageActions
+  include HeaderConstants
 
   def initialize(browser)
     @browser = browser

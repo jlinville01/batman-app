@@ -1,15 +1,26 @@
-# Dir['./batman-app/lib/constants/*'].each { |file| require file }
 require 'browser'
 require 'browser/aliases'
-require 'require_all'
-require_all 'lib'
+# Dir['./batman-app/lib/constants/*'].each { |file| require file }
 
 module PageActions
   def initialize(browser)
     @browser = browser
   end
 
-  def is_displayed?(locator = {}, timer = 35)
+  def wait_for(seconds)
+    Selenium::WebDriver::Wait.new(timeout: seconds).until { yield }
+  end
+
+  def click_element(locator, timer = 15)
+    wait_for(timer) { is_displayed?(locator, timer) }
+    @browser.find_element(locator).click
+  rescue Selenium::WebDriver::Error::JavascriptError
+    @browser.find_element(@locator).click
+  rescue Selenium::WebDriver::Error::InvalidElementStateError
+    @browser.find_element(@locator).click
+  end
+
+  def is_displayed?(locator = {}, timer = 15)
     element_found = false
 
     wait_for(timer) do
