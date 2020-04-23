@@ -16,11 +16,14 @@ Back-End
 5. `rake db:create`
 6. `rake db:migrate`
 7. `rake db:seed`
+8. Install Google Chrome if not installed
 
 # Run Tests
 
 Front-End (Web) Automation:
 `cucumber -p localhost -t @web`
+
+###### Requires Google Chrome to be installed
 
 Back-End (API) Automation:
 `cucumber -p localhost -t @api`
