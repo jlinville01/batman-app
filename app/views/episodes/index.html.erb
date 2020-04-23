@@ -4,24 +4,24 @@
 
 <table class="content-table">
   <thead>
-  <tr>
-    <th>Title Card</th>
-    <th>Episode</th>
-    <th>Season</th>
-    <th>Title</th>
-    <th>Synopsis</th>
-  </tr>
+    <tr>
+      <th>Title Card</th>
+      <th>Episode</th>
+      <th>Season</th>
+      <th>Title</th>
+      <th>Synopsis</th>
+    </tr>
   </thead>
 
   <tbody>
-  <% @episodes.each do |episode| %>
-    <tr>
-      <td><%= image_tag(episode.title_card, size: "200x125") %></td>
-      <td><%= episode.number %></td>
-      <td><%= episode.season %></td>
-      <td><%= episode.title %></td>
-      <td><%= episode.synopsis %></td>
-    </tr>
-  <% end %>
+    <% @episodes.each do |episode| %>
+      <tr>
+        <td><%= image_tag(episode.title_card, size: "200x125") %></td>
+        <td><%= episode.number %></td>
+        <td><%= episode.season %></td>
+        <td><%= episode.title %></td>
+        <td><%= episode.synopsis %></td>
+      </tr>
+    <% end %>
   </tbody>
 </table>

@@ -4,26 +4,26 @@
 
 <table class="content-table">
   <thead>
-  <tr>
-    <th>Avatar</th>
-    <th>Alias</th>
-    <th>Real Name</th>
-    <th>Debut</th>
-    <th>Status</th>
-    <th>Bio</th>
-  </tr>
+    <tr>
+      <th>Avatar</th>
+      <th>Alias</th>
+      <th>Real Name</th>
+      <th>Debut</th>
+      <th>Status</th>
+      <th>Bio</th>
+    </tr>
   </thead>
 
   <tbody>
-  <% @characters.each do |character| %>
-    <tr>
-      <td><%= image_tag(character.avatar, size: "200x125") %></td>
-      <td><%= character.alias %></td>
-      <td><%= character.real_name %></td>
-      <td><%= character.debut %></td>
-      <td><%= character.status %></td>
-      <td><%= character.bio %></td>
-    </tr>
-  <% end %>
+    <% @characters.each do |character| %>
+      <tr>
+        <td><%= image_tag(character.avatar, size: "200x125") %></td>
+        <td><%= character.alias %></td>
+        <td><%= character.real_name %></td>
+        <td><%= character.debut %></td>
+        <td><%= character.status %></td>
+        <td><%= character.bio %></td>
+      </tr>
+    <% end %>
   </tbody>
 </table>

@@ -4,18 +4,18 @@
 
 <table class="content-table">
   <thead>
-  <tr>
-    <th>Name</th>
-    <th>Character</th>
-  </tr>
+    <tr>
+      <th>Name</th>
+      <th>Character</th>
+    </tr>
   </thead>
 
   <tbody>
-  <% @actors.each do |actor| %>
-    <tr>
-      <td><%= actor.name %></td>
-      <td><%= actor.character %></td>
-    </tr>
-  <% end %>
+    <% @actors.each do |actor| %>
+      <tr>
+        <td><%= actor.name %></td>
+        <td><%= actor.character %></td>
+      </tr>
+    <% end %>
   </tbody>
 </table>
