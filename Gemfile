@@ -41,9 +41,10 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'cucumber', '3.1.2'
   gem 'rails-controller-testing', '~> 1.0'
+  gem 'require_all'
   gem 'rest-client', '~> 2.0', '>= 2.0.2'
-  gem 'rspec-expectations', '~> 3.8.0'
   gem 'rspec-rails'
+  gem 'rspec-expectations', '~> 3.8.0'
 end
 
 group :development do
@@ -57,6 +58,7 @@ end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
+  gem 'browser'
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
