@@ -1,14 +1,11 @@
 require 'selenium-webdriver'
-# require 'rspec'
 require 'json'
 require 'rest-client'
 require 'date'
 Dir['./batman-app/lib/constants/*'].each { |file| require file }
 require 'require_all'
-# require_all 'pages'
 require_all 'lib'
 require_all 'pages'
-# require_all 'lib/constants'
 
 # Sets up the Rails environment for Cucumber
 
