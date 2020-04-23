@@ -1,10 +1,7 @@
 require 'selenium-webdriver'
-# require 'rspec-rails'
 require 'rspec/matchers'
 require 'json'
 require 'rest-client'
-require 'date'
-Dir['./batman-app/lib/constants/*'].each { |file| require file }
 require 'require_all'
 require_all 'lib'
 require_all 'pages'
