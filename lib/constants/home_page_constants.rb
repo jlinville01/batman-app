@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module HomePageConstants
-  TITLE = { css: 'page_title' }
+  HOME_PAGE_TITLE = { css: '[data-qa=home-page-header]' }.freeze
 end

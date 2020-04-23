@@ -43,8 +43,8 @@ group :development, :test do
   gem 'rails-controller-testing', '~> 1.0'
   gem 'require_all'
   gem 'rest-client', '~> 2.0', '>= 2.0.2'
-  gem 'rspec-expectations', '~> 3.8.0'
   gem 'rspec-rails'
+  gem 'rspec-expectations', '~> 3.8.0'
 end
 
 group :development do

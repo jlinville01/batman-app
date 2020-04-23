@@ -17,5 +17,4 @@ class Header
     when 'Create Character' then click_element(CREATE_CHARACTER_LINK)
     end
   end
-
 end
