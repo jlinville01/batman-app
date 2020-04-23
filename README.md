@@ -4,11 +4,6 @@ The objective of this application was to create a rails application to showcase 
 
 ## TO-DO:
 
-Front-End
-- web automation
-  - add IDs
-  - add scenarios
-
 Back-End
 - database cleaner for api tests
 
