@@ -21,9 +21,7 @@ Back-End
 # Run Tests
 
 Front-End (Web) Automation:
-`cucumber -p localhost -t @web`
-
-###### Requires Google Chrome to be installed
+`cucumber -p localhost -t @web` ###### Requires Google Chrome to be installed
 
 Back-End (API) Automation:
 `cucumber -p localhost -t @api`
