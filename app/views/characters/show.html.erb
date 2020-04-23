@@ -2,24 +2,24 @@
 
 <div class="pic"><%= image_tag(@character.avatar, size: "900x500") %></div>
 
-<table class="center-table">
+<table class="content-table">
   <thead>
-  <tr>
-    <th>Alias</th>
-    <th>Real Name</th>
-    <th>Debut</th>
-    <th>Status</th>
-    <th>Bio</th>
-  </tr>
+    <tr>
+      <th>Alias</th>
+      <th>Real Name</th>
+      <th>Debut</th>
+      <th>Status</th>
+      <th>Bio</th>
+    </tr>
   </thead>
 
   <tbody>
-  <tr>
-    <td><%= @character.alias %></td>
-    <td><%= @character.real_name %></td>
-    <td><%= @character.debut %></td>
-    <td><%= @character.status %></td>
-    <td><%= @character.bio %></td>
-  </tr>
+    <tr>
+      <td><%= @character.alias %></td>
+      <td><%= @character.real_name %></td>
+      <td><%= @character.debut %></td>
+      <td><%= @character.status %></td>
+      <td><%= @character.bio %></td>
+    </tr>
   </tbody>
 </table>

@@ -2,20 +2,20 @@
 
 <div class="pic"><%= image_tag("https://cdn3-www.comingsoon.net/assets/uploads/2018/11/IMG_4690.jpg", size: "900x500") %></div>
 
-<table class="center-table">
+<table class="content-table">
   <thead>
-  <tr>
-    <th>Name</th>
-    <th>Character</th>
-  </tr>
+    <tr>
+      <th>Name</th>
+      <th>Character</th>
+    </tr>
   </thead>
 
   <tbody>
-  <% @actors.each do |actor| %>
-    <tr>
-      <td><%= actor.name %></td>
-      <td><%= actor.character %></td>
-    </tr>
-  <% end %>
+    <% @actors.each do |actor| %>
+      <tr>
+        <td><%= actor.name %></td>
+        <td><%= actor.character %></td>
+      </tr>
+    <% end %>
   </tbody>
 </table>
