@@ -9,4 +9,4 @@ Feature: tests relating to the footer links
     Scenarios:
       | footer_link | url                                        |
       | Github      | https://github.com/jlinville01             |
-      | LinkedIn    | https://www.linkedin.com/justinlinville1/  |
+#      | LinkedIn    | https://www.linkedin.com/justinlinville1/  |
