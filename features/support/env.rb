@@ -1,6 +1,7 @@
 require 'selenium-webdriver'
 require 'rspec/matchers'
 require 'json'
+require 'faker'
 require 'rest-client'
 require 'require_all'
 require_all 'lib'
