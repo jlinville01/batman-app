@@ -16,16 +16,22 @@ The objective of this application was to create a rails application to showcase 
 # Run Tests
 
 Front-End (Web) Automation:
-`cucumber -p localhost -t @web`
-
+- Run Sequentially
+  - `cucumber -p localhost -t @web`
+- Run In Parallel:
+  - `bundle exec parallel_cucumber features/ -n 3 -o '-p localhost -t "@web" -c -f pretty'`
+  
 Back-End (API) Automation:
-`cucumber -p localhost -t @api`
+- Run Sequentially
+  - `cucumber -p localhost -t @api`
+- Run In Parallel:
+  - `bundle exec parallel_cucumber features/ -n 3 -o '-p localhost -t "@api" -c -f pretty'`
 
 Controller Unit Tests:
-`rake spec OR rspec`
+- `rake spec OR rspec`
 
 Model Unit Tests:
-`rake test:models`
+- `rake test:models`
 
 (run `rake db:drop db:create db:migrate db:seed` to reset database)
 
