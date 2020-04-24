@@ -22,7 +22,7 @@ class CharactersController < ApplicationController
   # POST /characters
   def create
     @character = Character.new(character_params)
-    @character.avatar = 'characters/empty_profile.png'
+    @character.avatar = CHAR_AVATAR
 
     respond_to do |format|
       if @character.save
