@@ -23,7 +23,7 @@ end
 
 def create_character(alter_ego, real_name, debut, status, bio)
   payload = {
-    avatar: CHAR_AVATAR,
+    # avatar: CHAR_AVATAR,
     alter_ego: alter_ego,
     real_name: real_name,
     debut: debut,

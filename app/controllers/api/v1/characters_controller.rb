@@ -13,6 +13,7 @@ module Api
 
       def create
         character = Character.new(character_params)
+        character.avatar = 'characters/empty_profile.png'
 
         if character.save
           render json: { status: 'SUCCESS', message: 'Saved character', data: character}, status: :ok
