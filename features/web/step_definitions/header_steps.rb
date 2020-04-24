@@ -3,5 +3,5 @@ And 'user selects the {string} link from the header' do |header_link_name|
 end
 
 When 'user searches for {string}' do |query|
-
+  @header.search(query)
 end

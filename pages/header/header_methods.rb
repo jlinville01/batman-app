@@ -17,4 +17,11 @@ class Header
     when 'Create Character' then click_element(CREATE_CHARACTER_LINK)
     end
   end
+
+  def search(query)
+    is_displayed?(SEARCH_INPUT)
+
+    @browser.find_element(SEARCH_INPUT).send_keys(query)
+    click_element(SEARCH_BUTTON)
+  end
 end
