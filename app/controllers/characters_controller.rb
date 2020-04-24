@@ -1,7 +1,7 @@
 class CharactersController < ApplicationController
 
   def find
-    @characters = Character.where("alias = ?", params[:search_string].capitalize)
+    @characters = Character.where("alter_ego = ?", params[:search_string].capitalize)
   end
 
   # GET /characters
@@ -38,6 +38,6 @@ class CharactersController < ApplicationController
   private
 
   def character_params
-    params.require(:character).permit(:alias, :real_name, :debut, :status, :bio)
+    params.require(:character).permit(:alter_ego, :real_name, :debut, :status, :bio)
   end
 end

@@ -21,9 +21,9 @@ rescue RuntimeError => e
   raise(e.response)
 end
 
-def create_character(char_alias, real_name, debut, status, bio)
+def create_character(alter_ego, real_name, debut, status, bio)
   payload = {
-    alias: char_alias,
+    alter_ego: alter_ego,
     real_name: real_name,
     debut: debut,
     status: status,
@@ -34,7 +34,7 @@ def create_character(char_alias, real_name, debut, status, bio)
   expect(res.code).to eql(200)
   expect(parsed_res[:status]).to eql('SUCCESS')
   expect(parsed_res[:message]).to eql('Saved character')
-  expect(parsed_res[:data][:alias]).to eql(char_alias)
+  expect(parsed_res[:data][:alter_ego]).to eql(alter_ego)
   parsed_res[:data]
 rescue RuntimeError => e
   raise(e.response)

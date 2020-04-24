@@ -26,10 +26,10 @@ Feature: Character scenarios
     Given user sends an invalid request to create empty character
     Then user should expect to get errors for empty payload
 
-  @invalid_create_character_no_alias @api
+  @invalid_create_character_no_alter_ego @api
   Scenario: User cannot create character with empty payload
-    Given user sends an invalid request to create character without 'alias'
-    Then user should expect can't be blank error for empty 'alias'
+    Given user sends an invalid request to create character without 'alter_ego'
+    Then user should expect can't be blank error for empty 'alter_ego'
 
   @invalid_create_character_no_real_name @api
   Scenario: User cannot create character without real name

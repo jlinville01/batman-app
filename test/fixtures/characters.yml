@@ -1,35 +1,35 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  alias: "Batman"
+  alter_ego: "Batman"
   real_name: "Bruce Wayne"
   debut: "On Leather Wings"
   status: "Hero"
   bio: "Otherwise known as Bruce Wayne, a Gotham City vigilante who rose up to fight gangsters, insane criminals, and eventually even alternate universe despots, metahuman threats, and intergalactic tyrants."
 
 two:
-  alias: "Robin"
+  alter_ego: "Robin"
   real_name: "Dick Grayson"
   debut: "Christmas With the Joker"
   status: "Hero"
   bio: "The original Robin, the more easy-going sidekick to Batman. In adulthood, he struck out on his own as Nightwing."
 
 three:
-  alias: "Batgirl"
+  alter_ego: "Batgirl"
   real_name: "Barbara Gordon"
   debut: "Heart of Steel"
   status: "Hero"
   bio: "The daughter of Gotham City Police Commissioner, James Gordon. She took on the mantle of Batgirl, Batman's partner and protegé for many years."
 
 four:
-  alias: "Alfred"
+  alter_ego: "Alfred"
   real_name: "Alfred Pennyworth"
   debut: "On Leather Wings"
   status: "Hero"
   bio: "The butler to Thomas and Martha Wayne, and later to their son Bruce, the first Batman. Before entering the Wayne family's service, he was an agent of the British Secret Service."
 
 five:
-  alias: "Commissioner Gordon"
+  alter_ego: "Commissioner Gordon"
   real_name: "Jim Gordon"
   debut: "On Leather Wings"
   status: "Hero"

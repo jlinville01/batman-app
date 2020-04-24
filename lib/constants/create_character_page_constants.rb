@@ -2,7 +2,7 @@
 
 module CreateCharacterPageConstants
   CREATE_CHARACTER_PAGE_TITLE = { css: '[data-qa=create-character-page-header]' }.freeze
-  ALIAS_INPUT = { id: 'character_alias'}.freeze
+  ALTER_EGO_INPUT = { id: 'character_alter_ego'}.freeze
   REAL_NAME_INPUT = { id: 'character_real_name'}.freeze
   DEBUT_INPUT = { id: 'character_debut'}.freeze
   STATUS_DROPDOWN = { id: 'character_status'}.freeze
