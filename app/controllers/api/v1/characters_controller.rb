@@ -25,7 +25,7 @@ module Api
       private
 
       def character_params
-        params.permit(:avatar, :alter_ego, :real_name, :debut, :status, :bio)
+        params.permit(:alter_ego, :real_name, :debut, :status, :bio)
       end
     end
   end
