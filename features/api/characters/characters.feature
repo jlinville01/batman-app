@@ -1,5 +1,5 @@
 @characters
-Feature: User should be able to test Actor functionality
+Feature: Character scenarios
 
   @all_characters @api
   Scenario: User requests all characters

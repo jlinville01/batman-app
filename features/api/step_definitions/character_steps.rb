@@ -31,7 +31,7 @@ Given 'user sends an invalid request to create pre-existing character' do
 end
 
 Then 'user should expect to get' do
-  expect(@err[:data][:alias]).to eql(["has already been taken"])
+  expect(@err[:data][:alias]).to eql(['has already been taken'])
 end
 
 Given 'user sends an invalid request to create empty character' do

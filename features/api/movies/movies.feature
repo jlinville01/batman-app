@@ -1,5 +1,5 @@
 @movies
-Feature: User should be able to test Movie functionality
+Feature: Movie scenarios
 
   @all_movies @api
   Scenario: User requests all movies
