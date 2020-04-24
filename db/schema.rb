@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_21_035232) do
+ActiveRecord::Schema.define(version: 2020_04_24_214754) do
 
   create_table "actors", force: :cascade do |t|
     t.string "name"
@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 2020_04_21_035232) do
   end
 
   create_table "characters", force: :cascade do |t|
-    t.string "alias"
+    t.string "alter_ego"
     t.string "real_name"
     t.string "debut"
     t.string "status"

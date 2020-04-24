@@ -7,7 +7,7 @@ class CharacterTest < ActiveSupport::TestCase
   end
 
   test 'Batman' do
-    character = Character.find_by_alias('Batman')
+    character = Character.find_by_alter_ego('Batman')
     assert_equal('Bruce Wayne', character.real_name, 'Character real_name is incorrect')
     assert_equal('On Leather Wings', character.debut, 'company name is incorrect')
   end

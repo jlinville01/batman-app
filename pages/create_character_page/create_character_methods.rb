@@ -6,10 +6,10 @@ class CreateCharacterPage
     @browser = browser
   end
 
-  def create_character_web(char_alias, real_name, debut, status, bio)
-    is_displayed?(ALIAS_INPUT)
+  def create_character_web(alter_ego, real_name, debut, status, bio)
+    is_displayed?(ALTER_EGO_INPUT)
 
-    @browser.find_element(ALIAS_INPUT).send_keys(char_alias)
+    @browser.find_element(ALTER_EGO_INPUT).send_keys(alter_ego)
     @browser.find_element(REAL_NAME_INPUT).send_keys(real_name)
     @browser.find_element(DEBUT_INPUT).send_keys(debut)
     @browser.find_element(STATUS_DROPDOWN).send_keys(status)
