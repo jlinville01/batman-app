@@ -15,7 +15,7 @@ The objective of this application was to create a rails application to showcase 
 
 # Run Tests
 
-## Front-End (Web) Automation:
+### Front-End (Web) Automation:
 - Run Sequentially
   - `cucumber -p localhost -t @web`
 - Run In Parallel:
