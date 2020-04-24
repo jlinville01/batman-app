@@ -7,10 +7,10 @@ The objective of this application was to create a rails application to showcase 
 1. `git clone https://github.com/jlinville01/batman-app.git`
 2. `cd batman-app`
 3. `bundle install`
-4. `rails s`
-5. `rake db:create`
-6. `rake db:migrate`
-7. `rake db:seed`
+4. `rake db:create`
+5. `rake db:migrate`
+6. `rake db:seed`
+7. `rails s`
 8. Install Google Chrome (for web testing)
 
 # Run Tests
