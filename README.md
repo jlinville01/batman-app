@@ -28,10 +28,10 @@ Back-End (API) Automation:
   - `bundle exec parallel_cucumber features/ -n 3 -o '-p localhost -t "@api" -c -f pretty'`
 
 Controller Unit Tests:
-`rake spec OR rspec`
+- `rake spec OR rspec`
 
 Model Unit Tests:
-`rake test:models`
+- `rake test:models`
 
 (run `rake db:drop db:create db:migrate db:seed` to reset database)
 
