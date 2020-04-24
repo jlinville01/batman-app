@@ -22,7 +22,10 @@ Front-End (Web) Automation:
   - `bundle exec parallel_cucumber features/ -n 3 -o '-p localhost -t "@web" -c -f pretty'`
   
 Back-End (API) Automation:
-`cucumber -p localhost -t @api`
+- Run Sequentially
+  - `cucumber -p localhost -t @api`
+- Run In Parallel:
+  - `bundle exec parallel_cucumber features/ -n 3 -o '-p localhost -t "@api" -c -f pretty'`
 
 Controller Unit Tests:
 `rake spec OR rspec`
