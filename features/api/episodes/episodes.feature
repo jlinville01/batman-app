@@ -1,5 +1,5 @@
 @episodes
-Feature: User should be able to test Episode functionality
+Feature: Episode scenarios
 
   @all_episodes @api
   Scenario: User requests all episodes

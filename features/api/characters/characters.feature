@@ -1,5 +1,5 @@
 @characters
-Feature: User should be able to test Actor functionality
+Feature: Character scenarios
 
   @all_characters @api
   Scenario: User requests all characters
@@ -18,19 +18,36 @@ Feature: User should be able to test Actor functionality
 
   @invalid_create_character_preexisting @api
   Scenario: User cannot create character that already exists
+    Given user sends an invalid request to create pre-existing character
+    Then user should expect to get
+
+  @invalid_create_character_empty @api
+  Scenario: User cannot create character that already exists
+    Given user sends an invalid request to create empty character
+    Then user should expect to get errors for empty payload
 
   @invalid_create_character_no_alias @api
-  Scenario: User cannot create character without alias
+  Scenario: User cannot create character with empty payload
+    Given user sends an invalid request to create character without 'alias'
+    Then user should expect can't be blank error for empty 'alias'
 
   @invalid_create_character_no_real_name @api
   Scenario: User cannot create character without real name
+    Given user sends an invalid request to create character without 'real_name'
+    Then user should expect can't be blank error for empty 'real_name'
 
   @invalid_create_character_no_debut @api
   Scenario: User cannot create character without debut
+    Given user sends an invalid request to create character without 'debut'
+    Then user should expect can't be blank error for empty 'debut'
 
   @invalid_create_character_no_status @api
   Scenario: User cannot create character without status
+    Given user sends an invalid request to create character without 'status'
+    Then user should expect can't be blank error for empty 'status'
 
   @invalid_create_character_no_bio @api
   Scenario: User cannot create character without bio
+    Given user sends an invalid request to create character without 'bio'
+    Then user should expect can't be blank error for empty 'bio'
     
