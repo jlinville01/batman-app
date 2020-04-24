@@ -40,6 +40,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'cucumber', '3.1.2'
+  gem 'parallel_tests'
   gem 'rails-controller-testing', '~> 1.0'
   gem 'require_all'
   gem 'rest-client', '~> 2.0', '>= 2.0.2'
