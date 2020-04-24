@@ -2,15 +2,10 @@
 
 The objective of this application was to create a rails application to showcase various forms of automated testing including Front-End web automation, Back-End API automation and Unit/Fixture tests in honor of the acclaimed series 'Batman: The Animated Series.' Users can browse characters, episodes, movies and actors within the series as well as create a custom character.
 
-## TO-DO:
-
-Back-End
-- database cleaner for api tests
-
 # Setup
 
 1. `git clone https://github.com/jlinville01/batman-app.git`
-2. `cd /batman-app`
+2. `cd batman-app`
 3. `bundle install`
 4. `rails s`
 5. `rake db:create`
