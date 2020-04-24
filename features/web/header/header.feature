@@ -15,13 +15,15 @@ Feature: tests relating to the header nav
       | Actors           | /actors         | Actors               |
       | Create Character | /characters/new | Create New Character |
 
-#  @search_bar @web
-#  Scenario: Verify searchbar
-#    When user searches for 'Batman'
-#    Then user should be redirected
-#    And user should see the 'Batman' page title displayed
-#
-#  @invalid_search_bar @web
-#  Scenario: Verify searchbar
-#    When user searches for 'gibberish'
-#    Then user should be
+  @search_bar @web
+  Scenario: Verify searchbar
+    When user searches for 'Batman'
+    Then user should be redirected to '/characters/find'
+    And user should see the 'Batman' page title displayed
+
+  @invalid_search_bar @web
+  Scenario: Verify searchbar
+    When user searches for 'gibberish'
+    Then user should be redirected to '/characters/find'
+    And user should see the 'Batman' page title displayed
+    And user should see character not found error message

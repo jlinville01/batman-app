@@ -5,7 +5,7 @@
 
       <ul>
         <% @character.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
+          <li data-qa="create-character-error-message"><%= message %></li>
         <% end %>
       </ul>
     </div>
@@ -32,6 +32,6 @@
     <div><%= f.text_area :bio, cols: "50", rows: "5" %></div><br>
   </div>
   <div class="actions">
-    <div><%= f.submit %></div>
+    <div><%= f.submit 'Create Character', id: "submit_character_button" %></div>
   </div>
 <% end %>
