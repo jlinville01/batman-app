@@ -16,8 +16,11 @@ The objective of this application was to create a rails application to showcase 
 # Run Tests
 
 Front-End (Web) Automation:
-`cucumber -p localhost -t @web`
-
+- Run Sequentially
+  - `cucumber -p localhost -t @web`
+- Run In Parallel:
+  - `bundle exec parallel_cucumber features/ -n 3 -o '-p localhost -t "@web" -c -f pretty'`
+  
 Back-End (API) Automation:
 `cucumber -p localhost -t @api`
 
