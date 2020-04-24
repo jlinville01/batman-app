@@ -21,3 +21,49 @@ end
 Then('a new character should be created') do
   expect(@character[:alias]).to eql(CHAR_ALIAS)
 end
+
+Given 'user sends an invalid request to create pre-existing character' do
+  begin
+    create_character('Batman', 'test', 'test', 'Hero', 'test')
+  rescue RuntimeError => e
+    @err = JSON.parse(e.message.body, symbolize_names: true)
+  end
+end
+
+Then 'user should expect to get' do
+  expect(@err[:data][:alias]).to eql(["has already been taken"])
+end
+
+Given 'user sends an invalid request to create empty character' do
+  begin
+    create_character('', '', '', '', '')
+  rescue RuntimeError => e
+    @err = JSON.parse(e.message.body, symbolize_names: true)
+  end
+end
+
+Then 'user should expect to get errors for empty payload' do
+  expect(@err[:data][:alias]).to eql(["can't be blank"])
+  expect(@err[:data][:real_name]).to eql(["can't be blank"])
+  expect(@err[:data][:debut]).to eql(["can't be blank"])
+  expect(@err[:data][:status]).to eql(["can't be blank"])
+  expect(@err[:data][:bio]).to eql(["can't be blank"])
+end
+
+Given('user sends an invalid request to create character without {string}') do |invalid_attribute|
+  begin
+    case invalid_attribute
+    when 'alias' then create_character('', REAL_NAME, DEBUT, STATUS, BIO)
+    when 'real_name' then create_character(CHAR_ALIAS, '', DEBUT, STATUS, BIO)
+    when 'debut' then create_character(CHAR_ALIAS, REAL_NAME, '', STATUS, BIO)
+    when 'status' then create_character(CHAR_ALIAS, REAL_NAME, DEBUT, '', BIO)
+    when 'bio' then create_character(CHAR_ALIAS, REAL_NAME, DEBUT, STATUS, '')
+    end
+  rescue RuntimeError => e
+    @err = JSON.parse(e.message.body, symbolize_names: true)
+  end
+end
+
+Then 'user should expect can\'t be blank error for empty {string}' do |invalid_attribute|
+  expect(@err[:data][invalid_attribute.to_sym]).to eql(["can't be blank"])
+end
