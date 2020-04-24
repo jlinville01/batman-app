@@ -1,11 +1,6 @@
 @characters
 Feature: Character scenarios
 
-  @all_characters @api
-  Scenario: User requests all characters
-    Given user sends valid GET request for all characters
-    Then all characters should return in the response
-
   @specific_character @api
   Scenario: User requests specific character
     Given user sends valid GET request for character ID 1

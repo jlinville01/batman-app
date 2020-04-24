@@ -2,10 +2,6 @@ Given('user sends valid GET request for all characters') do
   @characters = characters
 end
 
-Then('all characters should return in the response') do
-  expect(@characters.count).to eql(17)
-end
-
 Given('user sends valid GET request for character ID {int}') do |character_id|
   @character = specific_character(character_id)
 end
@@ -15,11 +11,12 @@ Then('character {string} should return in the response') do |alter_ego|
 end
 
 Given('user sends a valid request to create character') do
-  @character = create_character(ALTER_EGO, REAL_NAME, DEBUT, STATUS, BIO)
+  @alt_ego = "#{(Faker::Verb.base).upcase}#{rand(100000)}"
+  @character = create_character(@alt_ego, REAL_NAME, DEBUT, STATUS, BIO)
 end
 
 Then('a new character should be created') do
-  expect(@character[:alter_ego]).to eql(ALTER_EGO)
+  expect(@character[:alter_ego]).to eql(@alt_ego)
 end
 
 Given 'user sends an invalid request to create pre-existing character' do
