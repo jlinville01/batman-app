@@ -28,7 +28,7 @@ The objective of this application was to create a rails application to showcase 
   - `bundle exec parallel_cucumber features/ -n 3 -o '-p localhost -t "@api" -c -f pretty'`
 
 ### Controller & Model Unit Tests:
-- `rake spec OR rspec`
+- `rake spec` OR `rspec`
 
 (run `rake db:drop db:create db:migrate db:seed` to reset database)
 
