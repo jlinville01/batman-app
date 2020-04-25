@@ -11,8 +11,10 @@ Then('character {string} should return in the response') do |alter_ego|
 end
 
 Given('user sends a valid request to create character') do
-  @alt_ego = "#{(Faker::Verb.base).upcase}#{rand(100000)}"
-  @character = create_character(@alt_ego, REAL_NAME, DEBUT, STATUS, BIO)
+  @alt_ego = "#{Faker::Verb.base.upcase}#{rand(100000)}"
+  name = Faker::Name.name
+  puts name
+  @character = create_character(@alt_ego, name, DEBUT, STATUS, BIO)
 end
 
 Then('a new character should be created') do
