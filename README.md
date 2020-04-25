@@ -1,6 +1,6 @@
 # Batman App
 
-The objective of this application was to create a rails application to showcase various forms of automated testing including front-end web automation, back-end API automation and unit tests in honor of the acclaimed series 'Batman: The Animated Series.' Users can browse characters, episodes, movies and actors within the series as well as create a custom character.
+The objective of this application was to create a rails application to showcase various forms of automated testing including front-end web automation, back-end API automation and unit tests in honor of the acclaimed series _Batman: The Animated Series_. Users can browse characters, episodes, movies and actors within the series as well as create a custom character.
 
 # Setup
 
