@@ -1,6 +1,7 @@
 When 'user submits a valid new character' do
   alt_ego = "#{(Faker::Verb.base).upcase}#{rand(100000)}"
-  @create_character_page.create_character_web(alt_ego, 'Test', 'Test', 'Hero', 'Test')
+  name = Faker::Name.name
+  @create_character_page.create_character_web(alt_ego, name, 'Test', 'Hero', 'Test')
 end
 
 When 'user submits a character that already exists' do

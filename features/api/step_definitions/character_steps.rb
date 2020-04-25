@@ -13,7 +13,6 @@ end
 Given('user sends a valid request to create character') do
   @alt_ego = "#{Faker::Verb.base.upcase}#{rand(100000)}"
   name = Faker::Name.name
-  puts name
   @character = create_character(@alt_ego, name, DEBUT, STATUS, BIO)
 end
 
