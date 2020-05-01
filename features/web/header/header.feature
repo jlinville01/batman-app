@@ -25,5 +25,5 @@ Feature: tests relating to the header nav
   Scenario: Verify searchbar
     When user searches for 'gibberish'
     Then user should be redirected to '/characters/find'
-    And user should see the 'Batman' page title displayed
+    And user should see the 'Characters' page title displayed
     And user should see character not found error message

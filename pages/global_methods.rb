@@ -27,6 +27,8 @@ class Global
     when 'Create New Character'
       is_displayed?(CREATE_CHARACTER_PAGE_TITLE)
       expect(@browser.find_element(CREATE_CHARACTER_PAGE_TITLE).text).to eql(title_name.upcase)
+    else
+      raise 'Non-existent title provided'
     end
   end
 end
