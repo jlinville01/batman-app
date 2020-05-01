@@ -38,7 +38,7 @@ RSpec.describe CharactersController, type: :controller do
       }
     end
 
-    it 'create a credit with seller id' do
+    it 'creates valid character' do
       post :create, params: valid_params
 
       expect(Character.last.alter_ego).to eq('Red Hood')
