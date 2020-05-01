@@ -3,7 +3,7 @@ Feature: Scenarios relating to the header nav
 
   Background:
     Given user selects the 'Create Character' link from the header
-    Then user should see the 'Create Character' page title displayed
+    Then user should see the 'Create New Character' page title displayed
 
   @create_character_web @web
   Scenario: User creates a valid new character
