@@ -1,16 +1,12 @@
 <h1 class="text-header" data-qa="characters-page-header">CHARACTERS</h1>
 
-<div class="pic"><%= image_tag("https://images.justwatch.com/backdrop/13952236/s1440/batman-the-animated-series", size: "900x500") %></div>
+<div class="pic"><%= image_tag("characters/characters.png", size: "900x500") %></div>
 
 <table class="content-table">
   <thead>
     <tr>
       <th>Avatar</th>
       <th>Alter Ego</th>
-      <th>Real Name</th>
-      <th>Debut</th>
-      <th>Status</th>
-      <th>Bio</th>
     </tr>
   </thead>
 
@@ -18,13 +14,7 @@
     <% @characters.each do |character| %>
       <tr>
         <td><%= image_tag(character.avatar, size: "200x125") %></td>
-<!--        <td><%#= link_to image_tag(character.avatar, size: "200x125"), character_path(Character.find_by(id: character.id)) %></td>-->
-        <td class="character-link"><%= link_to character.alter_ego, character_path(Character.find_by(id: character.id)) %></td>
-<!--        <td><%#= character.alter_ego %></td>-->
-        <td><%= character.real_name %></td>
-        <td><%= character.debut %></td>
-        <td><%= character.status %></td>
-        <td><%= character.bio %></td>
+        <td><%= link_to character.alter_ego, character_path(Character.find_by(id: character.id)), class: "character-link" %></td>
       </tr>
     <% end %>
   </tbody>

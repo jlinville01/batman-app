@@ -186,308 +186,308 @@ Episode.create!([{
   synopsis: "Baron Jozek, furious at Batman for humiliating him at a dinner party (over Jozek's underworld connections), hires Josiah Wormwood, a master in setting traps for his victims, to hunt down Batman and bring back the hero's cape and cowl.",
   title_card: "episodes/the_cape_and_cowl_conspiracy.png"
 }, {
-  number: 32,
-  season: 1,
+  number: 1,
+  season: 2,
   title: "Robin's Reckoning: Part 1",
   synopsis: "During a fight with some gangsters at a construction yard, Batman and Robin learn the name of their boss: Billy Marin. While Robin looks forward to going up against Marin, Batman becomes distant, and after a falling out at the Batcave, Batman doesn't allow Robin to accompany him on the search for Marin. Robin investigates on the Batcomputer, and soon realizes that Billy Marin is not the boss' real name. Rather, it is an alias of Tony Zucco, the man who killed his parents (which Batman already knew, but chose not to tell Robin).",
   title_card: "episodes/robins_reckoning.png"
 }, {
-  number: 33,
-  season: 1,
+  number: 2,
+  season: 2,
   title: "Robin's Reckoning: Part 2",
   synopsis: "Angered by Batman's deceit, Robin sets out to find Tony Zucco on his own, all the while plagued by the memories of his parents' death and how Bruce took him in as his own son. Eventually, Batman manages to find Zucco at an old amusement park, but breaks his leg during the fight. Robin finally arrives and prepares to kill Zucco in revenge.",
   title_card: "episodes/robins_reckoning_part_2.png"
 }, {
-  number: 34,
-  season: 1,
+  number: 3,
+  season: 2,
   title: "The Laughing Fish",
   synopsis: "Joker creates a toxin that affects only fish, mutating them into Joker fish. Then, he targets innocent men who refuse to copyright his Joker fish. The Joker also captures Harvey Bullock, and Batman must rescue him and foil the Clown Prince of Crime's insane scheme.",
   title_card: "episodes/the_laughing_fish.png"
 }, {
-  number: 35,
-  season: 1,
+  number: 4,
+  season: 2,
   title: "Night of the Ninja",
   synopsis: "A mysterious ninja is robbing Wayne Enterprises subsidiaries, and Batman discovers that the ninja is actually his equal in combat. A grudge against Bruce Wayne and skills to match him can only mean one person: Kyodai Ken, an old rival of Wayne's teacher from his days in Japan, and who was thrown out of the dojo after attempting to rob it, only to be stopped by Wayne. Ken, it turns out, wants revenge.",
   title_card: "episodes/night_of_the_ninja.png"
 }, {
-  number: 36,
-  season: 1,
+  number: 5,
+  season: 2,
   title: "Cat Scratch Fever",
   synopsis: "Batman must stop Roland Daggett's plan to release a viral plague designed by Professor Milo into Gotham by way of its stray cat population. The case gains new urgency when Catwoman becomes infected with the virus during her search for her missing cat, Isis. Now, Batman must find an antidote to save the woman who loves him most.",
   title_card: "episodes/cat_scratch_fever.png"
 }, {
-  number: 37,
-  season: 1,
+  number: 6,
+  season: 2,
   title: "The Strange Secret of Bruce Wayne",
   synopsis: "After a prominent judge is injured during a struggle with some thugs demanding money from her in exchange for a strange tape, Bruce Wayne decides to take a trip to Yucca Springs, a resort where the judge had vacationed, and consult Dr. Hugo Strange, a psychiatrist. Bruce soon learns that Strange has invented a machine that extracts people's darkest secrets from their minds and transfers them to videotape — and now Strange has proof of Bruce's secret identity as Batman, and plans to auction it to three of Gotham's prominent crime bosses.",
   title_card: "episodes/the_strange_secret_of_bruce_wayne.png"
 }, {
-  number: 38,
-  season: 1,
+  number: 7,
+  season: 2,
   title: "Heart of Steel: Part 1",
   synopsis: "Several robberies take place at major companies, including Wayne Enterprises, and Bruce Wayne, as Batman, discovers the thief to be a mechanical briefcase. Bruce meets with his old friend, Karl Rossum, an expert in robotics who lost his daughter to a vehicle accident years ago. He also meets Rossum's assistant, Randa Duane, and Rossum's ultimate creation: a prototype A.I. known as Holographic Analytical Reciprocating Digital Computer (H.A.R.D.A.C.) Bruce invites Duane to dinner, and around the same time, certain civilians start acting strangely. Most surprising is when Duane unexpectedly leaves Wayne Manor while Bruce is on the phone, and the entire Batcave turns on Batman.",
   title_card: "episodes/heart_of_steel.png"
 }, {
-  number: 39,
-  season: 1,
+  number: 8,
+  season: 2,
   title: "Heart of Steel: Part 2",
   synopsis: "Batman manages to free himself from the Batcave's clutches, and brings it back under his control, although he fails to track Duane down. Barbara Gordon approaches Batman to inform him of her father's sudden change in behavior. A brutal fight between Batman and Detective Bullock ensues, during which Batman pushes Bullock onto the Bat Signal, and reveals him to actually be an android, meaning that the real Bullock and James Gordon have gone missing, and Batman knows who the culprit is: H.A.R.D.A.C. Batman must stop the evil supercomputer before it is too late.",
   title_card: "episodes/heart_of_steel_part_2.png"
 }, {
-  number: 40,
-  season: 1,
+  number: 9,
+  season: 2,
   title: "If You're So Smart, Why Aren't You Rich?",
   synopsis: "Edward Nygma creates the video game The Riddle of the Minotaur for the company Competitron, but is fired by his superior Daniel Mockridge, who wants the profits for himself. Nygma vows revenge, and takes up the mantle of the Riddler two years later. While Batman sympathizes with Nygma, he and Robin find themselves forced to stop him before he kills Mockridge in a life-sized version of the Minotaur maze. Despite successfully rescuing Mockridge, who complete a deal to move his company to Gotham, the incident leaves him in a permanent all-consuming fear of Nygma's return for revenge.",
   title_card: "episodes/if_youre_so_smart.png"
 }, {
-  number: 41,
-  season: 1,
+  number: 10,
+  season: 2,
   title: "Joker's Wild",
   synopsis: "Cameron Kaiser builds a casino hotel modeled after the Joker, called \"The Joker's Wild\". The Joker sees this on the news and, enraged, escapes from Arkham again, with one thought on his mind: destroying the casino, unaware that this is exactly what Kaiser wants him to do as part of an insurance claim.",
   title_card: "episodes/jokers_wild.png"
 }, {
-  number: 42,
-  season: 1,
+  number: 11,
+  season: 2,
   title: "Tyger Tyger",
   synopsis: "Selina Kyle is kidnapped by the villainous genetic engineer Dr. Emile Dorian and becomes his latest experiment to provide his man-cat hybrid named Tygrus with a mate. Batman learns of this and comes to the island to rescue Selina. He is captured and forced into a deadly game of cat-and-flying mouse as Tygrus hunts Batman through the island's jungles.",
   title_card: "episodes/tyger_tyger.png"
 }, {
-  number: 43,
-  season: 1,
+  number: 12,
+  season: 2,
   title: "Moon of the Wolf",
   synopsis: "Batman investigates the appearance of a werewolf-like creature in Gotham, not realizing that the monster happens to be one of Bruce Wayne's associates — Anthony Romulus, ex-Olympic champion. Behind the scheme is twisted chemist Professor Milo.",
   title_card: "episodes/moon_of_the_wolf.png"
 }, {
-  number: 44,
-  season: 1,
+  number: 13,
+  season: 2,
   title: "Day of the Samurai",
   synopsis: "Kyodai Ken kidnaps Kari, star pupil of Yoru Sensei, the martial arts instructor who taught both Kyodai and Bruce. The ninja's ransom for her is a scroll that teaches the location of the fabled Death Touch.",
   title_card: "episodes/day_of_the_samurai.png"
 }, {
-  number: 45,
-  season: 1,
+  number: 14,
+  season: 2,
   title: "Terror in the Sky",
   synopsis: "When a giant-sized bat ransacks Gotham harbor, Batman suspects that Dr. Kirk Langstrom is up to his old tricks, taking the Man-Bat formula again. Batman isn't the only one. Kirk's wife, Francine, is so distrustful of her husband that she decides to leave him. After further investigation, Batman discovers that this Man-Bat is not Kirk, but someone else, and thus he shames Francine's father into permanently destroying the formula.",
   title_card: "episodes/terror_in_the_sky.png"
 }, {
-  number: 46,
-  season: 1,
+  number: 15,
+  season: 2,
   title: "Almost Got 'Im",
   synopsis: "The Joker, Killer Croc, the Penguin, Two-Face, and Poison Ivy all meet at a poker table, each telling a tale of times when they almost defeated Batman. At the same time, Harley Quinn is about to kill Catwoman after she rescued Batman from the Joker's electric chair, and Batman must save her.",
   title_card: "episodes/almost_got_im.png"
 }, {
-  number: 47,
-  season: 1,
+  number: 16,
+  season: 2,
   title: "Birds of a Feather",
   synopsis: "Veronica Vreeland is looking for a way to create a splash with her next party, and arrives at the idea of having a former criminal in attendance — especially if there is one whose manners would create a stir. The Penguin, who has recently reformed, fits the bill perfectly. In the process of convincing the Penguin to come to her party, Veronica finds she likes the corpulent little guy. For his part, the Penguin begins to fall in love with her, until he overhears that he is merely being used...",
   title_card: "episodes/birds_of_a_feather.png"
 }, {
-  number: 48,
-  season: 1,
+  number: 17,
+  season: 2,
   title: "What Is Reality?",
   synopsis: "Seeking to prove once and for all that his is the superior mind, the Riddler lures Batman into a riddle-solving contest inside the virtual reality of a computer game in order to save Commissioner Gordon's life. In the course of solving the riddles and escaping the Riddler's traps, Batman learns that he is able to manipulate the virtual reality landscape much like the Riddler does.",
   title_card: "episodes/what_is_reality.png"
 }, {
-  number: 49,
-  season: 1,
+  number: 18,
+  season: 2,
   title: "I Am the Night",
   synopsis: "On the anniversary of the death of Bruce's parents, Batman accompanies Leslie Thompkins to Crime Alley to place roses on the spot where they were gunned down. Meanwhile, Commissioner Gordon is on stakeout to arrest Jimmy \"The Jazzman\" Peake during a drug smuggling ring. Batman had promised to be there, but arrives late to find a gun battle going on. He helps defeat the gangsters and arrest the Jazzman, but at a high cost—Gordon is severely wounded. The incident traumatizes Batman and he contemplates giving up his crime-fighting career, despite the Jazzman escaping prison to carry out his personal vendetta against Gordon (who had sent him to prison six years before).",
   title_card: "episodes/i_am_the_night.png"
 }, {
-  number: 50,
-  season: 1,
+  number: 19,
+  season: 2,
   title: "Off Balance",
   synopsis: "While following Count Vertigo's trail, Batman encounters Talia, daughter of the head of the Society of Shadows, who was sent by her father to prevent the capture of a sonic drill that the Count stole. But after his identity is accidentally revealed to Talia, Batman remains off-balance as to where her true loyalties lie.",
   title_card: "episodes/off_balance.png"
 }, {
-  number: 51,
-  season: 1,
+  number: 20,
+  season: 2,
   title: "The Man Who Killed Batman",
   synopsis: "When small-time gang member Sidney \"The Squid\" Debris (played by Matt Frewer) seemingly kills Batman by accident, he gets involved with gangs all over Gotham, as well as the Joker and Rupert Thorne, none of whom believe his story that everything that is happening is by preposterous happenstance.",
   title_card: "episodes/the_man_who_killed_batman.png"
 }, {
-  number: 52,
-  season: 1,
+  number: 21,
+  season: 2,
   title: "Mudslide",
   synopsis: "Clayface is falling apart, literally. His clay-like body is disintegrating. Fortunately, a scientist he knew from his movie star days is working on a remedy. However, Hagen is forced to steal money to pay for the expensive components of the remedy. That is, until one of his targets is Wayne Biomedical Labs...",
   title_card: "episodes/mudslide.png"
 }, {
-  number: 53,
-  season: 1,
+  number: 22,
+  season: 2,
   title: "Paging the Crime Doctor",
   synopsis: "Dr. Matthew Thorne (played by Joseph Campanella), losing his medical license and forced into becoming the crime doctor by his older brother, crime boss Rupert Thorne, must perform delicate surgery on Rupert. He can't do it alone, and kidnaps Dr. Leslie Thompkins to assist. Batman discovers Leslie's disappearance, and rushes to track her down – and has an additional interest in Matthew, because he was a medical school classmate of Bruce Wayne's father Thomas.",
   title_card: "episodes/paging_the_crime_doctor.png"
 }, {
-  number: 54,
-  season: 1,
+  number: 23,
+  season: 2,
   title: "Zatanna",
   synopsis: "When the glamorous magician Zatanna is framed for a robbery during her act, Batman swings to her defense. Zatanna is grateful, though a little puzzled, by the Dark Knight's commitment to prove her innocence, but the two heroes unite and use the skills her father, Zatara, taught them to expose and combat the culprit: an evil illusionist named Montague Kane.",
   title_card: "episodes/zatanna.png"
 }, {
-  number: 55,
-  season: 1,
+  number: 24,
+  season: 2,
   title: "The Mechanic",
   synopsis: "Thanks to a freak accident during a high-speed chase, the Batmobile is virtually demolished. After Batman takes the car to his personal mechanic, Earl Cooper, the Penguin makes his move and tampers with the Batmobile, putting it under his control.",
   title_card: "episodes/the_mechanic.png"
 }, {
-  number: 56,
-  season: 1,
+  number: 25,
+  season: 2,
   title: "Harley and Ivy",
   synopsis: "When the Joker fires Harley for her incompetent, she tries going on a crime spree of her own, joining up with Poison Ivy, and the two become Gotham's Queens of Crime, much to the Joker's fury.",
   title_card: "episodes/harley_and_ivy.png"
 }, {
-  number: 57,
-  season: 1,
+  number: 26,
+  season: 2,
   title: "Shadow of the Bat: Part 1",
   synopsis: "When Commissioner Gordon is framed for taking bribes from Rupert Thorne, his daughter Barbara pleads with Batman to show up at a rally being put on in the commissioner's behalf. But when Batman disappears after finding the person behind the frame-up, Barbara takes the law into her own hands as Batgirl.",
   title_card: "episodes/shadow_of_the_bat.png"
 }, {
-  number: 58,
-  season: 1,
+  number: 27,
+  season: 2,
   title: "Shadow of the Bat: Part 2",
   synopsis: "Robin discovers that Gil Mason is in league with the underworld and goes to investigate him. He encounters Batgirl along the way, and go their separate ways to stop Mason. They then meet again to learn that Gil is working with Two-Face to take out Gordon, and have Batman (as Matches Malone) captured.",
   title_card: "episodes/shadow_of_the_bat_part_2.png"
 }, {
-  number: 59,
-  season: 1,
+  number: 28,
+  season: 2,
   title: "Blind as a Bat",
   synopsis: "The Penguin steals an experimental helicopter from an air show, causing an explosion that temporarily blinds Bruce Wayne. Batman knows he won't be able to wait until his vision returns to track the Penguin down, and he must find a way to do so without the use of his eyes.",
   title_card: "episodes/blind_as_a_bat.png"
 }, {
-  number: 60,
-  season: 1,
+  number: 29,
+  season: 2,
   title: "The Demon's Quest: Part 1",
   synopsis: "When Robin is mysteriously abducted from his college campus, Batman begins a fruitless search... until he is astounded by the sudden appearance in the Batcave of Ra's al Ghul. Ra's quickly reveals that his daughter, Talia, has been abducted under circumstances similar to Robin's, suggesting that the same people are responsible. So begins an uneasy truce between Batman and 'The Demon'.",
   title_card: "episodes/the_demons_quest.png"
 }, {
-  number: 61,
-  season: 1,
+  number: 30,
+  season: 2,
   title: "The Demon's Quest: Part 2",
   synopsis: "After freeing Talia from her father's clutches and escaping from an avalanche, Batman and Robin follow the only clue they have – the word 'Orpheus'. After discovering that 'Orpheus' is Ra's private satellite that will orbit over the Sahara, the duo travel to the Demon's desert stronghold. There, Batman learns that the satellite is actually a weapon which will explosively destroy all the Lazarus Pits simultaneously throughout the world, destroying all the life that exists.",
   title_card: "episodes/the_demons_quest_part_2.png"
 }, {
-  number: 62,
-  season: 1,
+  number: 31,
+  season: 2,
   title: "His Silicon Soul",
   synopsis: "When a Batman impersonator appears in Gotham City, the real Batman deduces that Karl Rossum is somehow involved and confronts the inventor. The other Batman, a duplicate, then shows up and a battle between the two takes place. After the duplicate Batman escapes, it begins its campaign to recreate H.A.R.D.A.C.'s goals of a robotic society.",
   title_card: "episodes/his_silicon_soul.png"
 }, {
-  number: 63,
-  season: 1,
+  number: 32,
+  season: 2,
   title: "Fire from Olympus",
   synopsis: "Believing himself to be the reincarnation of Zeus, Maxie Zeus steals an experimental weapon that the government developed. The mad man desires to use the weapon against the people of Gotham City and Batman must put a stop to Maxie's mad plan against the city he loves.",
   title_card: "episodes/fire_from_olympus.png"
 }, {
-  number: 64,
-  season: 1,
+  number: 33,
+  season: 2,
   title: "Read My Lips",
   synopsis: "A brand-new gang has made its debut committing the slickest crimes ever, thanks to the gang leader, Scarface. It's up to Batman to stop Scarface and his \"dummy\", the Ventriloquist.",
   title_card: "episodes/read_my_lips.png"
 }, {
-  number: 65,
-  season: 1,
+  number: 34,
+  season: 2,
   title: "The Worry Men",
   synopsis: "Wealthy socialite Veronica Vreeland returns from Central America, bringing tiny handmade dolls for all her friends. According to native legend, once placed under a pillow, the dolls do the sleeper's worrying for them. Unknown to Veronica or her guests, each of the dolls was made by the Mad Hatter, and contains a tiny microchip which plants hypnotic suggestions inside the sleepers' brains.",
   title_card: "episodes/the_worry_men.png"
 }, {
   number: 1,
-  season: 2,
+  season: 3,
   title: "Sideshow",
   synopsis: "En route to an upstate prison, Killer Croc escapes and leads Batman on a dangerous chase through the wilderness. After throwing Batman temporarily off his trail, the reptile-man takes refuge with a group of retired circus freaks, and convinces them to help him. When Batman arrives, Croc and the freaks band together to capture him.",
   title_card: "episodes/sideshow.png"
 }, {
   number: 2,
-  season: 2,
+  season: 3,
   title: "A Bullet for Bullock",
   synopsis: "Someone has put a hit out on Gotham's toughest cop, Harvey Bullock. After surviving several near misses, Bullock realizes he has no choice but to ask his arch-rival Batman to help him discover who is behind the murder attempts. During their investigation, Bullock learns that his gruff and mean-spirited manner has created enemies in the unlikeliest of people.",
   title_card: "episodes/a_bullet_for_bullock.png"
 }, {
   number: 3,
-  season: 2,
+  season: 3,
   title: "Trial",
   synopsis: "Gotham's new DA, Janet Van Dorn, is out to capture Batman, but both she and him end up captured by some of Batman's main enemies instead. They are soon put on a kangaroo trial by the Joker (the judge), Two-Face (the prosecutor), the Ventriloquist (the bailiff), Poison Ivy, Harley Quinn, the Mad Hatter, Killer Croc, the Scarecrow, and the Riddler (the jury), in front of other criminals held at Arkham. If the defense (Batman and the D.A.) can prove that Batman is not the cause for everyone's turn to crime, they will be set free. When the jury gives the verdict of 'not guilty', the villains have little intention of following through on their deal...",
   title_card: "episodes/trial.png"
 }, {
   number: 4,
-  season: 2,
+  season: 3,
   title: "Avatar",
   synopsis: "A mystic Egyptian scroll donated to the Gotham museum by Bruce Wayne is stolen by Ra's al Ghul, and Batman and Talia must join forces to prevent the power-mad Ra's from unlocking the scroll's secrets of life and death. Their quest takes them to a hidden temple deep beneath the Egyptian desert. There, the Dark Knight is forced into a terrifying battle with an ancient Egyptian sorceress.",
   title_card: "episodes/avatar.png"
 }, {
   number: 5,
-  season: 2,
+  season: 3,
   title: "House & Garden",
   synopsis: "Not only has Poison Ivy been released from Arkham Asylum, but she's also married to her doctor and settled down to help him raise his two sons. It would appear that Ivy has gone straight and that her old days as a criminal are over. But wealthy bachelors are being struck down by an unknown toxin, leaving Batman to question Ivy's innocence.",
   title_card: "episodes/house_and_garden.png"
 }, {
   number: 6,
-  season: 2,
+  season: 3,
   title: "The Terrible Trio",
   synopsis: "Three wealthy, bored friends of Bruce Wayne decide to seek new thrills by becoming master criminals. As the Fox, the Shark and the Vulture (masters of land, sea and air), the Terrible Trio pick Gotham clean, until they encounter one person who cannot be bought off — Batman.",
   title_card: "episodes/the_terrible_trio.png"
 }, {
   number: 7,
-  season: 2,
+  season: 3,
   title: "Harlequinade",
   synopsis: "The Joker steals an atomic bomb, and it is up to Batman and Robin to find and stop him. Since there is no time to spare, the duo enlist the help of Harley Quinn to track Joker down. Throughout the episode, it is briefly discussed how Harley met Joker.",
   title_card: "episodes/harleyquinade.png"
 }, {
   number: 8,
-  season: 2,
+  season: 3,
   title: "Time Out of Joint",
   synopsis: "The Clock King returns to continue his vendetta against Mayor Hill. This time, the time-obsessed criminal hopes to murder Hill with the help of a stolen invention that allows him to warp time and travel at super-speed. Securing another device from its creator, Batman and Robin take on the Clock King in a furious high-speed battle for the mayor's life.",
   title_card: "episodes/time_out_of_joint.png"
 }, {
   number: 9,
-  season: 2,
+  season: 3,
   title: "Catwalk",
   synopsis: "Anxious to take up her old ways as Catwoman, Selina Kyle joins forces with the Ventriloquist to humiliate socialite Veronica Vreeland. But the real victim is Catwoman herself, who has been secretly set up by Scarface to take the fall for another robbery. Batman has to intercede before the furious feline makes things worse by killing the double-talking Ventriloquist.",
   title_card: "episodes/catwalk.png"
 }, {
   number: 10,
-  season: 2,
+  season: 3,
   title: "Bane",
   synopsis: "Batman comes face-to-face with his most powerful adversary yet: the chemically-enhanced assassin Bane. Originally hired by Rupert Thorne to kill Batman, Bane plans on taking control of Thorne's criminal empire once Batman is destroyed. It is a fight to the death with all of Gotham in the balance, as Batman takes on the man who has vowed to break the Bat.",
   title_card: "episodes/bane.png"
 }, {
   number: 11,
-  season: 2,
+  season: 3,
   title: "Baby-Doll",
   synopsis: "A washed-up actress named Mary Dahl has become bitter and insane after falling into obscurity and suffering from a disorder that prevents her body from growing to adulthood, thus biologically cursed with literal eternal youth. She kidnaps her TV family co-stars, who all led much happier lives and more successful careers than her, and holds them prisoner on the abandoned soundstage of her old show. While Robin works fast to free the actors from Baby-Doll's explosive death-trap, Batman pursues the tiny fiend through a deadly carnival funhouse.",
   title_card: "episodes/babydoll.png"
 }, {
   number: 12,
-  season: 2,
+  season: 3,
   title: "The Lion and the Unicorn",
   synopsis: "The Red Claw organization kidnaps Alfred, seeking a code they need to arm a weapon of mass destruction that Alfred knows from his days as a British secret agent.",
   title_card: "episodes/the_lion_and_the_unicorn.png"
 }, {
   number: 13,
-  season: 2,
+  season: 3,
   title: "Showdown",
   synopsis: "Ra's al Ghul narrates a story from his past in which Jonah Hex stops his plan to destroy the transcontinental railroad which is being completed in 1883, by using a war blimp.",
   title_card: "episodes/showdown.png"
 }, {
   number: 14,
-  season: 2,
+  season: 3,
   title: "Riddler's Reform",
   synopsis: "The Riddler is hired to work for a toy company, vowing to turn over a new leaf. But Batman refuses to believe he has changed, and he suspects that the Riddler is still obsessed with outsmarting and defeating him. Now, the Dark Knight must prove that Riddler is still a criminal at heart and send him back to Arkham.",
   title_card: "episodes/riddlers_reform.png"
 }, {
   number: 15,
-  season: 2,
+  season: 3,
   title: "Second Chance",
   synopsis: "Just before he is to undergo the operation that will restore his sanity, Harvey Dent is kidnapped by a mysterious villain. Batman and Robin split up to nab the criminal who is behind the scheme in order to abduct the Dark Knight's old friend. They suspect that either the Penguin or Rupert Thorne may be behind the kidnapping.",
   title_card: "episodes/second_chance.png"
 }, {
   number: 16,
-  season: 2,
+  season: 3,
   title: "Harley's Holiday",
   synopsis: "Harley Quinn is released back into society, after being declared sane at Arkham Asylum. A misunderstanding at a clothing store, however, causes a snowball of comedic chaos to build around her.",
   title_card: "episodes/harleys_holiday.png"
 }, {
   number: 17,
-  season: 2,
+  season: 3,
   title: "Lock-Up",
   synopsis: "Lyle Bolton, the new head of security at Arkham, is fired for his atrocious mistreatment of the inmates. Six months later, Bolton becomes the vigilante Lock-Up, and decides to put who he feels responsible for the ruin of the city behind bars. It's up to Batman and Robin to save his victims.",
   title_card: "episodes/lock_up.png"

@@ -1,14 +1,12 @@
 <h1 class="text-header" data-qa="movies-page-header">MOVIES</h1>
 
-<div class="pic"><%= image_tag("https://www.denofgeek.com/wp-content/uploads/2017/09/batman_animated_essential_primary.jpg?resize=768%2C432", size: "900x500") %></div>
+<div class="pic"><%= image_tag("movies/movies.png", size: "900x500") %></div>
 
 <table class="content-table">
   <thead>
     <tr>
       <th>Poster</th>
       <th>Title</th>
-      <th>Release Date</th>
-      <th>Synopsis</th>
     </tr>
   </thead>
 
@@ -16,9 +14,7 @@
     <% @movies.each do |movie| %>
       <tr>
         <td><%= image_tag(movie.poster, size: "150x200") %></td>
-        <td><%= movie.title %></td>
-        <td><%= movie.release_date %></td>
-        <td><%= movie.synopsis %></td>
+        <td><%= link_to movie.title, movie_path(Movie.find_by(id: movie.id)), class: "movie-link" %></td>
       </tr>
     <% end %>
   </tbody>
