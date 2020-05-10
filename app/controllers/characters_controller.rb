@@ -1,7 +1,7 @@
 class CharactersController < ApplicationController
 
   def find
-    @characters = Character.where("alter_ego = ?", params[:search_string].capitalize)
+    @characters = Character.where('alter_ego = ?', params[:search_string].capitalize)
   end
 
   # GET /characters

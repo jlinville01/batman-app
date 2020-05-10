@@ -7,6 +7,7 @@ body {
 }
 
 /* Header */
+
 .header {
     grid-area: header;
     background-color: #B20000;
@@ -20,6 +21,7 @@ body {
 }
 
 /* Grid container */
+
 .grid-container {
     display: grid;
     grid-template-areas:
@@ -35,6 +37,9 @@ body {
 .text-header {
     grid-area: text-header;
     text-align: center;
+    font-family: PlazaW01-Regular;
+    font-size: 100px;
+    font-weight: bold;
 }
 
 .pic {
@@ -52,6 +57,7 @@ body {
 }
 
 /* Links */
+
 a:link {
     color: white;
     text-decoration:none;
@@ -74,17 +80,43 @@ a:active {
     text-decoration:none;
 }
 
+a.character-link:link, a.episode-link:link, a.movie-link:link {
+    font-family: PlazaW01-Regular;
+    font-size: 50px;
+    color: black;
+    text-decoration:none;
+    text-shadow: 2px 2px #FFFFFF;
+}
+
+a.character-link:visited, a.episode-link:visited, a.movie-link:visited {
+    color: black;
+    text-decoration:none;
+}
+
+a.character-link:hover, a.episode-link:hover, a.movie-link:hover {
+    color: white;
+    text-decoration:none;
+    text-shadow: 2px 2px #000000;
+}
+
+a.character-link:active, a.episode-link:active, a.movie-link:active {
+    color: white;
+    text-decoration:none;
+    text-shadow: 2px 2px #000000;
+}
+
 /* Tables */
+
 table, th, td {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border: 3px solid black;
     text-align: center;
     padding: 5px;
+    margin: auto;
 }
 
 table {
     border-collapse: collapse;
-    margin: 0px 150px
 }
 
 th {
@@ -101,12 +133,13 @@ tr:hover {
 }
 
 /* Forms */
+
 .form-whole {
     background-color: #f2f2f2;
     width: 25%;
     border-radius: 5px;
     padding: 20px;
-    margin: auto
+    margin: auto;
 }
 
 .form-label {
@@ -114,6 +147,7 @@ tr:hover {
 }
 
 /* Footer */
+
 .footer {
     grid-area: footer;
     background-color: #B20000;

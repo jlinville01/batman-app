@@ -1,15 +1,12 @@
 <h1 class="text-header" data-qa="episodes-page-header">EPISODES</h1>
 
-<div class="pic"><%= image_tag("https://dotandline.net/wp-content/uploads/2019/05/1_G67dynBVa1SvWTht3_jQhQ-1210x642.jpeg", size: "900x500") %></div>
+<div class="pic"><%= image_tag("episodes/episodes.png", size: "900x500") %></div>
 
 <table class="content-table">
   <thead>
     <tr>
       <th>Title Card</th>
-      <th>Episode</th>
-      <th>Season</th>
       <th>Title</th>
-      <th>Synopsis</th>
     </tr>
   </thead>
 
@@ -17,10 +14,7 @@
     <% @episodes.each do |episode| %>
       <tr>
         <td><%= image_tag(episode.title_card, size: "200x125") %></td>
-        <td><%= episode.number %></td>
-        <td><%= episode.season %></td>
-        <td><%= episode.title %></td>
-        <td><%= episode.synopsis %></td>
+        <td><%= link_to episode.title, episode_path(Episode.find_by(id: episode.id)), class: "episode-link" %></td>
       </tr>
     <% end %>
   </tbody>
