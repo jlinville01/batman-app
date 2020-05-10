@@ -51,7 +51,18 @@ body {
     grid-area: content;
 }
 
-/* Links */
+/*Links */
+a {
+    border-radius: 100%;
+    /*width: 40px;*/
+    /*height: 40px;*/
+    background: #B20000;
+    /*display:inline-block;*/
+    /*line-height:40px;*/
+    /*vertical-align:center;*/
+    /*text-align:center;*/
+    /*color:#ffffff;*/
+}
 a:link {
     color: white;
     text-decoration:none;

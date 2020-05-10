@@ -18,7 +18,9 @@
     <% @characters.each do |character| %>
       <tr>
         <td><%= image_tag(character.avatar, size: "200x125") %></td>
-        <td style="color: red;"><%= link_to character.alter_ego, character_path(Character.find_by(id: character.id)), id: 'character_link' %></td>
+<!--        <td><%#= link_to image_tag(character.avatar, size: "200x125"), character_path(Character.find_by(id: character.id)) %></td>-->
+        <td class="character-link"><%= link_to character.alter_ego, character_path(Character.find_by(id: character.id)) %></td>
+<!--        <td><%#= character.alter_ego %></td>-->
         <td><%= character.real_name %></td>
         <td><%= character.debut %></td>
         <td><%= character.status %></td>
