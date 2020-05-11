@@ -1,16 +1,16 @@
 def characters
-  res = RestClient.get("#{BASE_HOST}/characters_page", nil)
+  res = RestClient.get("#{BASE_HOST}/characters", nil)
   parsed_res = JSON.parse(res, symbolize_names: true)
   expect(res.code).to eql(200)
   expect(parsed_res[:status]).to eql('SUCCESS')
-  expect(parsed_res[:message]).to eql('Loaded characters_page')
+  expect(parsed_res[:message]).to eql('Loaded characters')
   parsed_res[:data]
 rescue RuntimeError => e
   raise(e.response)
 end
 
 def specific_character(character_id)
-  res = RestClient.get("#{BASE_HOST}/characters_page/#{character_id}", nil)
+  res = RestClient.get("#{BASE_HOST}/characters/#{character_id}", nil)
   parsed_res = JSON.parse(res, symbolize_names: true)
   expect(res.code).to eql(200)
   expect(parsed_res[:status]).to eql('SUCCESS')
@@ -29,7 +29,7 @@ def create_character(alter_ego, real_name, debut, status, bio)
     status: status,
     bio: bio
   }
-  res = RestClient.post("#{BASE_HOST}/characters_page", payload, nil)
+  res = RestClient.post("#{BASE_HOST}/characters", payload, nil)
   parsed_res = JSON.parse(res, symbolize_names: true)
   expect(res.code).to eql(200)
   expect(parsed_res[:status]).to eql('SUCCESS')

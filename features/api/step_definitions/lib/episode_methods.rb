@@ -1,16 +1,16 @@
 def episodes
-  res = RestClient.get("#{BASE_HOST}/episodes_page", nil)
+  res = RestClient.get("#{BASE_HOST}/episodes", nil)
   parsed_res = JSON.parse(res, symbolize_names: true)
   expect(res.code).to eql(200)
   expect(parsed_res[:status]).to eql('SUCCESS')
-  expect(parsed_res[:message]).to eql('Loaded episodes_page')
+  expect(parsed_res[:message]).to eql('Loaded episodes')
   parsed_res[:data]
 rescue RuntimeError => e
   raise(e.response)
 end
 
 def specific_episode(episode_id)
-  res = RestClient.get("#{BASE_HOST}/episodes_page/#{episode_id}", nil)
+  res = RestClient.get("#{BASE_HOST}/episodes/#{episode_id}", nil)
   parsed_res = JSON.parse(res, symbolize_names: true)
   expect(res.code).to eql(200)
   expect(parsed_res[:status]).to eql('SUCCESS')
