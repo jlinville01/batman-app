@@ -2,7 +2,7 @@ When 'user selects the {string} character link' do |character|
   @characters_page.clink_character_link(character)
 end
 
-And 'user should see {string} alter ego' do |alter_ego|
+Then 'user should see {string} alter ego' do |alter_ego|
   expect(@characters_page.element_text(CharactersPage::CHARACTER_ALTER_EGO)).to eql(alter_ego)
 end
 

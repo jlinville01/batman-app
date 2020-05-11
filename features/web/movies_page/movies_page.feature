@@ -7,4 +7,4 @@ Feature: tests relating to the Movies page
     And user should be redirected to '/movies'
     And user should see the 'Movies' page title displayed
     When user selects the 'Batman: Mask of the Phantasm' movie link
-    And user should see 'Batman: Mask of the Phantasm' movie title
+    Then user should see 'Batman: Mask of the Phantasm' movie title

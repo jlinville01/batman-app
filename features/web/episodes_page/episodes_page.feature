@@ -7,4 +7,4 @@ Feature: tests relating to the Episodes page
     And user should be redirected to '/episodes'
     And user should see the 'Episodes' page title displayed
     When user selects the 'Fear of Victory' episode link
-    And user should see 'Fear of Victory' episode title
+    Then user should see 'Fear of Victory' episode title

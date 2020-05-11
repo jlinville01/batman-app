@@ -7,4 +7,4 @@ Feature: tests relating to the Characters page
     And user should be redirected to '/characters'
     And user should see the 'Characters' page title displayed
     When user selects the 'Batman' character link
-    And user should see 'Batman' alter ego
+    Then user should see 'Batman' alter ego
