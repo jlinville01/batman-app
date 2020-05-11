@@ -7,8 +7,6 @@ class Header
   end
 
   def clink_header_link(header_link_name)
-    is_displayed?(CHARACTERS_LINK)
-
     case header_link_name
     when 'Characters' then click_element(CHARACTERS_LINK)
     when 'Episodes' then click_element(EPISODES_LINK)

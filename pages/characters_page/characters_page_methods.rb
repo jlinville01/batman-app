@@ -6,9 +6,9 @@ class CharactersPage
     @browser = browser
   end
 
-  def character_not_found
-    is_displayed?(CHARACTER_NOT_FOUND_MSG)
+  def clink_character_link(character)
+    expect(is_displayed?({ link: character })).to be(true), "Can't find element { link: #{character} }"
 
-    @browser.find_element(CHARACTER_NOT_FOUND_MSG)
+    @browser.find_element(link: character).click
   end
 end

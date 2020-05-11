@@ -7,7 +7,7 @@ class CreateCharacterPage
   end
 
   def create_character_web(alter_ego, real_name, debut, status, bio)
-    is_displayed?(ALTER_EGO_INPUT)
+    expect(is_displayed?(ALTER_EGO_INPUT)).to be(true), "Can't find element #{ALTER_EGO_INPUT}"
 
     @browser.find_element(ALTER_EGO_INPUT).send_keys(alter_ego)
     @browser.find_element(REAL_NAME_INPUT).send_keys(real_name)
@@ -18,7 +18,7 @@ class CreateCharacterPage
   end
 
   def create_character_err_msg
-    is_displayed?(CREATE_CHARACTER_ERR_MSG)
+    expect(is_displayed?(CREATE_CHARACTER_ERR_MSG)).to be(true), "Can't find element #{CREATE_CHARACTER_ERR_MSG}"
     error_messages = @browser.find_elements(CREATE_CHARACTER_ERR_MSG)
 
     arr = []
