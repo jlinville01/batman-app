@@ -19,7 +19,8 @@ Feature: tests relating to the header nav
   Scenario: Verify searchbar
     When user searches for 'Batman'
     Then user should be redirected to '/characters/find'
-    And user should see the 'Batman' page title displayed
+    And user should see the 'Characters' page title displayed
+    And user should see 'Batman' alter ego
 
   @invalid_search_bar @web
   Scenario: Verify searchbar

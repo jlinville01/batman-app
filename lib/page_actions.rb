@@ -10,22 +10,23 @@ module PageActions
     Selenium::WebDriver::Wait.new(timeout: seconds).until { yield }
   end
 
-  def click_element(locator, timer = 15)
-    wait_for(timer) { is_displayed?(locator, timer) }
-    @browser.find_element(locator).click
-  end
-
   def is_displayed?(locator = {}, timer = 15)
-    element_found = false
-
     wait_for(timer) do
       @browser.find_element(locator).displayed?
-      element_found = true
     end
+  rescue Selenium::WebDriver::Error::TimeoutError
+    false
+  end
 
-    element_found
-  rescue Selenium::WebDriver::Error::TimeOutError
-    return false
-    raise "ElementNotDisplayedError: Could not find #{locator}"
+  def element_text(element)
+    expect(is_displayed?(element)).to be(true), "Can't find element #{element}"
+
+    @browser.find_element(element).text
+  end
+
+  def click_element(element)
+    expect(is_displayed?(element)).to be(true), "Can't find element #{element}"
+
+    @browser.find_element(element).click
   end
 end
