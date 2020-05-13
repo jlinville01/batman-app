@@ -15,12 +15,12 @@ SUPPORT_DIR = File.dirname(__FILE__)
 
 def initialize_session(browser_config)
   @browser = Selenium::WebDriver.for(browser_config[:browser], driver_path: browser_config[:path])
-  @window_size = browser_config[:platform].to_s
   @browser.manage.window.resize_to(browser_config[:window_x], browser_config[:window_y])
 end
 
 Before do |scenario|
   if scenario.source_tag_names.include? '@web'
+    # Hardcoded to Chrome only for demo purposes
     initialize_session(BrowserConfig::CHROME_DESKTOP)
 
     @global = Global.new(@browser)
