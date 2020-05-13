@@ -36,3 +36,7 @@ Before do |scenario|
     @browser.navigate.to 'http://localhost:3000/'
   end
 end
+
+After do |scenario|
+  @browser.quit
+end
