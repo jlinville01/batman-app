@@ -38,5 +38,7 @@ Before do |scenario|
 end
 
 After do |scenario|
-  @browser.quit
+  if scenario.source_tag_names.include? '@web'
+    @browser.quit
+  end
 end
