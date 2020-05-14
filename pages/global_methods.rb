@@ -21,6 +21,8 @@ class Global
       expect(element_text(ACTORS_PAGE_TITLE)).to eql(title_name.upcase)
     when 'Create New Character'
       expect(element_text(CREATE_CHARACTER_PAGE_TITLE)).to eql(title_name.upcase)
+    else
+      raise 'Invalid page title'
     end
   end
 end

@@ -7,13 +7,14 @@ Feature: tests relating to the header nav
     Then user should be redirected to '<url>'
     And user should see the '<title_name>' page title displayed
 
-    Scenarios:
-      | header_link      | url             | title_name           |
-      | Characters       | /characters     | Characters           |
-      | Episodes         | /episodes       | Episodes             |
-      | Movies           | /movies         | Movies               |
-      | Actors           | /actors         | Actors               |
-      | Create Character | /characters/new | Create New Character |
+    Examples:
+    | header_link      | url             | title_name           |
+    | Logo             | /               | Welcome              |
+    | Characters       | /characters     | Characters           |
+    | Episodes         | /episodes       | Episodes             |
+    | Movies           | /movies         | Movies               |
+    | Actors           | /actors         | Actors               |
+    | Create Character | /characters/new | Create New Character |
 
   @search_bar @web
   Scenario: Verify searchbar

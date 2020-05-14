@@ -8,6 +8,7 @@ class Header
 
   def clink_header_link(header_link_name)
     case header_link_name
+    when 'Logo' then click_element(BATMAN_LOGO)
     when 'Characters' then click_element(CHARACTERS_LINK)
     when 'Episodes' then click_element(EPISODES_LINK)
     when 'Movies' then click_element(MOVIES_LINK)
