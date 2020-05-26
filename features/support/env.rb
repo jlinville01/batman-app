@@ -14,8 +14,15 @@ include RSpec::Matchers
 SUPPORT_DIR = File.dirname(__FILE__)
 
 def initialize_session(browser_config)
-  @browser = Selenium::WebDriver.for(browser_config[:browser], driver_path: browser_config[:path])
-  @browser.manage.window.resize_to(browser_config[:window_x], browser_config[:window_y])
+  # Set driver path
+  Selenium::WebDriver::Chrome::Service.driver_path = browser_config[:path]
+
+  # Set Chrome browser options
+  opts = Selenium::WebDriver::Chrome::Options.new
+  opts.add_argument("--window-size=#{browser_config[:window_x]},#{browser_config[:window_y]}")
+
+  # Instantiate webdriver
+  @browser = Selenium::WebDriver.for(browser_config[:browser], options: opts)
 end
 
 Before do |scenario|
@@ -38,7 +45,5 @@ Before do |scenario|
 end
 
 After do |scenario|
-  if scenario.source_tag_names.include? '@web'
-    @browser.quit
-  end
+  @browser.quit if scenario.source_tag_names.include? '@web'
 end
